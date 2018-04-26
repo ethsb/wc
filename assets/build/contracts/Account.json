@@ -1,0 +1,285 @@
+{
+  "contractName": "Account",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "tokenAddress",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b60405160208060ac83398101604052808051906020019091905050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505060358060776000396000f3006060604052600080fd00a165627a7a7230582058b986fc8f42e916d772040894ff006a7889053f63e69f92938ff5714d178bbc0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582058b986fc8f42e916d772040894ff006a7889053f63e69f92938ff5714d178bbc0029",
+  "sourceMap": "60:148:0:-;;;108:98;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;186:12;164:9;;:35;;;;;;;;;;;;;;;;;;108:98;60:148;;;;;;",
+  "deployedSourceMap": "60:148:0:-;;;;;",
+  "source": "pragma solidity ^0.4.18;\n\nimport './common/KnotToken.sol';\n\ncontract Account {\n    KnotToken knotToken;\n    function Account(address tokenAddress) public {\n        knotToken = KnotToken(tokenAddress);\n    }\n}",
+  "sourcePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/Account.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/Account.sol",
+      "exportedSymbols": {
+        "Account": [
+          17
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".18"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 6539,
+          "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/KnotToken.sol",
+          "file": "./common/KnotToken.sol",
+          "scope": 18,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2,
+        "name": "ImportDirective",
+        "src": "26:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            17
+          ],
+          "name": "Account",
+          "scope": 18
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "knotToken",
+              "scope": 17,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "contract KnotToken",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "KnotToken",
+                  "referencedDeclaration": 6538,
+                  "type": "contract KnotToken"
+                },
+                "id": 3,
+                "name": "UserDefinedTypeName",
+                "src": "83:9:0"
+              }
+            ],
+            "id": 4,
+            "name": "VariableDeclaration",
+            "src": "83:19:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "implemented": true,
+              "isConstructor": true,
+              "modifiers": [
+                null
+              ],
+              "name": "Account",
+              "payable": false,
+              "scope": 17,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "tokenAddress",
+                      "scope": 16,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "type": "address"
+                        },
+                        "id": 5,
+                        "name": "ElementaryTypeName",
+                        "src": "125:7:0"
+                      }
+                    ],
+                    "id": 6,
+                    "name": "VariableDeclaration",
+                    "src": "125:20:0"
+                  }
+                ],
+                "id": 7,
+                "name": "ParameterList",
+                "src": "124:22:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 8,
+                "name": "ParameterList",
+                "src": "154:0:0"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "contract KnotToken"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 4,
+                              "type": "contract KnotToken",
+                              "value": "knotToken"
+                            },
+                            "id": 9,
+                            "name": "Identifier",
+                            "src": "164:9:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "isStructConstructorCall": false,
+                              "lValueRequested": false,
+                              "names": [
+                                null
+                              ],
+                              "type": "contract KnotToken",
+                              "type_conversion": true
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  ],
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 6538,
+                                  "type": "type(contract KnotToken)",
+                                  "value": "KnotToken"
+                                },
+                                "id": 10,
+                                "name": "Identifier",
+                                "src": "176:9:0"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 6,
+                                  "type": "address",
+                                  "value": "tokenAddress"
+                                },
+                                "id": 11,
+                                "name": "Identifier",
+                                "src": "186:12:0"
+                              }
+                            ],
+                            "id": 12,
+                            "name": "FunctionCall",
+                            "src": "176:23:0"
+                          }
+                        ],
+                        "id": 13,
+                        "name": "Assignment",
+                        "src": "164:35:0"
+                      }
+                    ],
+                    "id": 14,
+                    "name": "ExpressionStatement",
+                    "src": "164:35:0"
+                  }
+                ],
+                "id": 15,
+                "name": "Block",
+                "src": "154:52:0"
+              }
+            ],
+            "id": 16,
+            "name": "FunctionDefinition",
+            "src": "108:98:0"
+          }
+        ],
+        "id": 17,
+        "name": "ContractDefinition",
+        "src": "60:148:0"
+      }
+    ],
+    "id": 18,
+    "name": "SourceUnit",
+    "src": "0:208:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-04-21T02:24:13.795Z"
+}
