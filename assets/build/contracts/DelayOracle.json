@@ -193,7 +193,7 @@
       "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/DelayOracle.sol",
       "exportedSymbols": {
         "DelayOracle": [
-          5694
+          5739
         ]
       }
     },
@@ -207,69 +207,69 @@
             ".18"
           ]
         },
-        "id": 5399,
+        "id": 5444,
         "name": "PragmaDirective",
         "src": "0:24:11"
       },
       {
         "attributes": {
-          "SourceUnit": 13341,
+          "SourceUnit": 13386,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/installed_contracts/ethereum-api/oraclizeAPI_0.5.sol",
           "file": "../../installed_contracts/ethereum-api/oraclizeAPI_0.5.sol",
-          "scope": 5695,
+          "scope": 5740,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 5400,
+        "id": 5445,
         "name": "ImportDirective",
         "src": "25:68:11"
       },
       {
         "attributes": {
-          "SourceUnit": 15028,
+          "SourceUnit": 15073,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/installed_contracts/solidity-stringutils/strings.sol",
           "file": "../../installed_contracts/solidity-stringutils/strings.sol",
-          "scope": 5695,
+          "scope": 5740,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 5401,
+        "id": 5446,
         "name": "ImportDirective",
         "src": "94:68:11"
       },
       {
         "attributes": {
-          "SourceUnit": 7519,
+          "SourceUnit": 7564,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/Utility.sol",
           "file": "./Utility.sol",
-          "scope": 5695,
+          "scope": 5740,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 5402,
+        "id": 5447,
         "name": "ImportDirective",
         "src": "163:23:11"
       },
       {
         "attributes": {
           "contractDependencies": [
-            13340
+            13385
           ],
           "contractKind": "contract",
           "documentation": "@title DelayOracle smart contract. ",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            5694,
-            13340
+            5739,
+            13385
           ],
           "name": "DelayOracle",
-          "scope": 5695
+          "scope": 5740
         },
         "children": [
           {
@@ -283,15 +283,15 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "usingOraclize",
-                  "referencedDeclaration": 13340,
+                  "referencedDeclaration": 13385,
                   "type": "contract usingOraclize"
                 },
-                "id": 5403,
+                "id": 5448,
                 "name": "UserDefinedTypeName",
                 "src": "254:13:11"
               }
             ],
-            "id": 5404,
+            "id": 5449,
             "name": "InheritanceSpecifier",
             "src": "254:13:11"
           },
@@ -304,15 +304,15 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "strings",
-                  "referencedDeclaration": 15027,
+                  "referencedDeclaration": 15072,
                   "type": "library strings"
                 },
-                "id": 5405,
+                "id": 5450,
                 "name": "UserDefinedTypeName",
                 "src": "280:7:11"
               }
             ],
-            "id": 5406,
+            "id": 5451,
             "name": "UsingForDirective",
             "src": "274:20:11"
           },
@@ -320,7 +320,7 @@
             "attributes": {
               "constant": false,
               "name": "key",
-              "scope": 5694,
+              "scope": 5739,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string storage ref",
@@ -333,12 +333,12 @@
                   "name": "string",
                   "type": "string storage pointer"
                 },
-                "id": 5407,
+                "id": 5452,
                 "name": "ElementaryTypeName",
                 "src": "299:6:11"
               }
             ],
-            "id": 5408,
+            "id": 5453,
             "name": "VariableDeclaration",
             "src": "299:18:11"
           },
@@ -346,7 +346,7 @@
             "attributes": {
               "canonicalName": "DelayOracle.Info",
               "name": "Info",
-              "scope": 5694,
+              "scope": 5739,
               "visibility": "public"
             },
             "children": [
@@ -354,7 +354,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "arrScheduled",
-                  "scope": 5417,
+                  "scope": 5462,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string storage pointer",
@@ -367,12 +367,12 @@
                       "name": "string",
                       "type": "string storage pointer"
                     },
-                    "id": 5409,
+                    "id": 5454,
                     "name": "ElementaryTypeName",
                     "src": "345:6:11"
                   }
                 ],
-                "id": 5410,
+                "id": 5455,
                 "name": "VariableDeclaration",
                 "src": "345:19:11"
               },
@@ -380,7 +380,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "arrActual",
-                  "scope": 5417,
+                  "scope": 5462,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string storage pointer",
@@ -393,12 +393,12 @@
                       "name": "string",
                       "type": "string storage pointer"
                     },
-                    "id": 5411,
+                    "id": 5456,
                     "name": "ElementaryTypeName",
                     "src": "374:6:11"
                   }
                 ],
-                "id": 5412,
+                "id": 5457,
                 "name": "VariableDeclaration",
                 "src": "374:16:11"
               },
@@ -406,7 +406,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "delays",
-                  "scope": 5417,
+                  "scope": 5462,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "int256",
@@ -419,12 +419,12 @@
                       "name": "int",
                       "type": "int256"
                     },
-                    "id": 5413,
+                    "id": 5458,
                     "name": "ElementaryTypeName",
                     "src": "400:3:11"
                   }
                 ],
-                "id": 5414,
+                "id": 5459,
                 "name": "VariableDeclaration",
                 "src": "400:10:11"
               },
@@ -432,7 +432,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "isDelay",
-                  "scope": 5417,
+                  "scope": 5462,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bool",
@@ -445,17 +445,17 @@
                       "name": "bool",
                       "type": "bool"
                     },
-                    "id": 5415,
+                    "id": 5460,
                     "name": "ElementaryTypeName",
                     "src": "420:4:11"
                   }
                 ],
-                "id": 5416,
+                "id": 5461,
                 "name": "VariableDeclaration",
                 "src": "420:12:11"
               }
             ],
-            "id": 5417,
+            "id": 5462,
             "name": "StructDefinition",
             "src": "323:116:11"
           },
@@ -463,7 +463,7 @@
             "attributes": {
               "canonicalName": "DelayOracle.Record",
               "name": "Record",
-              "scope": 5694,
+              "scope": 5739,
               "visibility": "public"
             },
             "children": [
@@ -471,7 +471,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "record",
-                  "scope": 5422,
+                  "scope": 5467,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string storage pointer",
@@ -484,12 +484,12 @@
                       "name": "string",
                       "type": "string storage pointer"
                     },
-                    "id": 5418,
+                    "id": 5463,
                     "name": "ElementaryTypeName",
                     "src": "468:6:11"
                   }
                 ],
-                "id": 5419,
+                "id": 5464,
                 "name": "VariableDeclaration",
                 "src": "468:13:11"
               },
@@ -497,7 +497,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "isValue",
-                  "scope": 5422,
+                  "scope": 5467,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bool",
@@ -510,17 +510,17 @@
                       "name": "bool",
                       "type": "bool"
                     },
-                    "id": 5420,
+                    "id": 5465,
                     "name": "ElementaryTypeName",
                     "src": "491:4:11"
                   }
                 ],
-                "id": 5421,
+                "id": 5466,
                 "name": "VariableDeclaration",
                 "src": "491:12:11"
               }
             ],
-            "id": 5422,
+            "id": 5467,
             "name": "StructDefinition",
             "src": "444:66:11"
           },
@@ -528,7 +528,7 @@
             "attributes": {
               "constant": false,
               "name": "queryID",
-              "scope": 5694,
+              "scope": 5739,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "bytes32",
@@ -541,12 +541,12 @@
                   "name": "bytes32",
                   "type": "bytes32"
                 },
-                "id": 5423,
+                "id": 5468,
                 "name": "ElementaryTypeName",
                 "src": "515:7:11"
               }
             ],
-            "id": 5424,
+            "id": 5469,
             "name": "VariableDeclaration",
             "src": "515:22:11"
           },
@@ -554,7 +554,7 @@
             "attributes": {
               "constant": false,
               "name": "queryStr1",
-              "scope": 5694,
+              "scope": 5739,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string storage ref",
@@ -567,12 +567,12 @@
                   "name": "string",
                   "type": "string storage pointer"
                 },
-                "id": 5425,
+                "id": 5470,
                 "name": "ElementaryTypeName",
                 "src": "543:6:11"
               }
             ],
-            "id": 5426,
+            "id": 5471,
             "name": "VariableDeclaration",
             "src": "543:23:11"
           },
@@ -580,7 +580,7 @@
             "attributes": {
               "constant": false,
               "name": "queryRecords",
-              "scope": 5694,
+              "scope": 5739,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(bytes32 => struct DelayOracle.Record storage ref)",
@@ -598,7 +598,7 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 5427,
+                    "id": 5472,
                     "name": "ElementaryTypeName",
                     "src": "580:7:11"
                   },
@@ -606,20 +606,20 @@
                     "attributes": {
                       "contractScope": null,
                       "name": "Record",
-                      "referencedDeclaration": 5422,
+                      "referencedDeclaration": 5467,
                       "type": "struct DelayOracle.Record storage pointer"
                     },
-                    "id": 5428,
+                    "id": 5473,
                     "name": "UserDefinedTypeName",
                     "src": "589:6:11"
                   }
                 ],
-                "id": 5429,
+                "id": 5474,
                 "name": "Mapping",
                 "src": "572:24:11"
               }
             ],
-            "id": 5430,
+            "id": 5475,
             "name": "VariableDeclaration",
             "src": "572:44:11"
           },
@@ -627,7 +627,7 @@
             "attributes": {
               "constant": false,
               "name": "results",
-              "scope": 5694,
+              "scope": 5739,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(bytes32 => struct DelayOracle.Info storage ref)",
@@ -645,7 +645,7 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 5431,
+                    "id": 5476,
                     "name": "ElementaryTypeName",
                     "src": "630:7:11"
                   },
@@ -653,20 +653,20 @@
                     "attributes": {
                       "contractScope": null,
                       "name": "Info",
-                      "referencedDeclaration": 5417,
+                      "referencedDeclaration": 5462,
                       "type": "struct DelayOracle.Info storage pointer"
                     },
-                    "id": 5432,
+                    "id": 5477,
                     "name": "UserDefinedTypeName",
                     "src": "639:4:11"
                   }
                 ],
-                "id": 5433,
+                "id": 5478,
                 "name": "Mapping",
                 "src": "622:22:11"
               }
             ],
-            "id": 5434,
+            "id": 5479,
             "name": "VariableDeclaration",
             "src": "622:37:11"
           },
@@ -683,7 +683,7 @@
                       "constant": false,
                       "indexed": false,
                       "name": "condition",
-                      "scope": 5438,
+                      "scope": 5483,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -696,22 +696,22 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5435,
+                        "id": 5480,
                         "name": "ElementaryTypeName",
                         "src": "721:6:11"
                       }
                     ],
-                    "id": 5436,
+                    "id": 5481,
                     "name": "VariableDeclaration",
                     "src": "721:16:11"
                   }
                 ],
-                "id": 5437,
+                "id": 5482,
                 "name": "ParameterList",
                 "src": "720:18:11"
               }
             ],
-            "id": 5438,
+            "id": 5483,
             "name": "EventDefinition",
             "src": "695:44:11"
           },
@@ -728,7 +728,7 @@
                       "constant": false,
                       "indexed": false,
                       "name": "description",
-                      "scope": 5442,
+                      "scope": 5487,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -741,22 +741,22 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5439,
+                        "id": 5484,
                         "name": "ElementaryTypeName",
                         "src": "770:6:11"
                       }
                     ],
-                    "id": 5440,
+                    "id": 5485,
                     "name": "VariableDeclaration",
                     "src": "770:18:11"
                   }
                 ],
-                "id": 5441,
+                "id": 5486,
                 "name": "ParameterList",
                 "src": "769:20:11"
               }
             ],
-            "id": 5442,
+            "id": 5487,
             "name": "EventDefinition",
             "src": "744:46:11"
           },
@@ -770,7 +770,7 @@
               ],
               "name": "DelayOracle",
               "payable": false,
-              "scope": 5694,
+              "scope": 5739,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -782,7 +782,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_key",
-                      "scope": 5452,
+                      "scope": 5497,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -795,17 +795,17 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5443,
+                        "id": 5488,
                         "name": "ElementaryTypeName",
                         "src": "816:6:11"
                       }
                     ],
-                    "id": 5444,
+                    "id": 5489,
                     "name": "VariableDeclaration",
                     "src": "816:11:11"
                   }
                 ],
-                "id": 5445,
+                "id": 5490,
                 "name": "ParameterList",
                 "src": "815:13:11"
               },
@@ -816,7 +816,7 @@
                   ]
                 },
                 "children": [],
-                "id": 5446,
+                "id": 5491,
                 "name": "ParameterList",
                 "src": "836:0:11"
               },
@@ -841,11 +841,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5408,
+                              "referencedDeclaration": 5453,
                               "type": "string storage ref",
                               "value": "key"
                             },
-                            "id": 5447,
+                            "id": 5492,
                             "name": "Identifier",
                             "src": "846:3:11"
                           },
@@ -855,31 +855,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5444,
+                              "referencedDeclaration": 5489,
                               "type": "string memory",
                               "value": "_key"
                             },
-                            "id": 5448,
+                            "id": 5493,
                             "name": "Identifier",
                             "src": "852:4:11"
                           }
                         ],
-                        "id": 5449,
+                        "id": 5494,
                         "name": "Assignment",
                         "src": "846:10:11"
                       }
                     ],
-                    "id": 5450,
+                    "id": 5495,
                     "name": "ExpressionStatement",
                     "src": "846:10:11"
                   }
                 ],
-                "id": 5451,
+                "id": 5496,
                 "name": "Block",
                 "src": "836:27:11"
               }
             ],
-            "id": 5452,
+            "id": 5497,
             "name": "FunctionDefinition",
             "src": "795:68:11"
           },
@@ -893,7 +893,7 @@
               ],
               "name": "",
               "payable": true,
-              "scope": 5694,
+              "scope": 5739,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "public"
@@ -906,7 +906,7 @@
                   ]
                 },
                 "children": [],
-                "id": 5453,
+                "id": 5498,
                 "name": "ParameterList",
                 "src": "876:2:11"
               },
@@ -917,7 +917,7 @@
                   ]
                 },
                 "children": [],
-                "id": 5454,
+                "id": 5499,
                 "name": "ParameterList",
                 "src": "894:0:11"
               },
@@ -928,12 +928,12 @@
                   ]
                 },
                 "children": [],
-                "id": 5455,
+                "id": 5500,
                 "name": "Block",
                 "src": "894:8:11"
               }
             ],
-            "id": 5456,
+            "id": 5501,
             "name": "FunctionDefinition",
             "src": "868:34:11"
           },
@@ -947,9 +947,9 @@
               ],
               "name": "__callback",
               "payable": false,
-              "scope": 5694,
+              "scope": 5739,
               "stateMutability": "nonpayable",
-              "superFunction": 7911,
+              "superFunction": 7956,
               "visibility": "public"
             },
             "children": [
@@ -959,7 +959,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "queryId",
-                      "scope": 5566,
+                      "scope": 5611,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -972,12 +972,12 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 5457,
+                        "id": 5502,
                         "name": "ElementaryTypeName",
                         "src": "927:7:11"
                       }
                     ],
-                    "id": 5458,
+                    "id": 5503,
                     "name": "VariableDeclaration",
                     "src": "927:15:11"
                   },
@@ -985,7 +985,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "result",
-                      "scope": 5566,
+                      "scope": 5611,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -998,17 +998,17 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5459,
+                        "id": 5504,
                         "name": "ElementaryTypeName",
                         "src": "944:6:11"
                       }
                     ],
-                    "id": 5460,
+                    "id": 5505,
                     "name": "VariableDeclaration",
                     "src": "944:13:11"
                   }
                 ],
-                "id": 5461,
+                "id": 5506,
                 "name": "ParameterList",
                 "src": "926:32:11"
               },
@@ -1019,7 +1019,7 @@
                   ]
                 },
                 "children": [],
-                "id": 5462,
+                "id": 5507,
                 "name": "ParameterList",
                 "src": "966:0:11"
               },
@@ -1053,11 +1053,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 5463,
+                            "id": 5508,
                             "name": "Identifier",
                             "src": "976:7:11"
                           },
@@ -1094,16 +1094,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15610,
+                                      "referencedDeclaration": 15655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 5464,
+                                    "id": 5509,
                                     "name": "Identifier",
                                     "src": "984:3:11"
                                   }
                                 ],
-                                "id": 5465,
+                                "id": 5510,
                                 "name": "MemberAccess",
                                 "src": "984:10:11"
                               },
@@ -1133,31 +1133,31 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 10969,
+                                      "referencedDeclaration": 11014,
                                       "type": "function () returns (address)",
                                       "value": "oraclize_cbAddress"
                                     },
-                                    "id": 5466,
+                                    "id": 5511,
                                     "name": "Identifier",
                                     "src": "998:18:11"
                                   }
                                 ],
-                                "id": 5467,
+                                "id": 5512,
                                 "name": "FunctionCall",
                                 "src": "998:20:11"
                               }
                             ],
-                            "id": 5468,
+                            "id": 5513,
                             "name": "BinaryOperation",
                             "src": "984:34:11"
                           }
                         ],
-                        "id": 5469,
+                        "id": 5514,
                         "name": "FunctionCall",
                         "src": "976:43:11"
                       }
                     ],
-                    "id": 5470,
+                    "id": 5515,
                     "name": "ExpressionStatement",
                     "src": "976:43:11"
                   },
@@ -1189,11 +1189,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 5471,
+                            "id": 5516,
                             "name": "Identifier",
                             "src": "1029:7:11"
                           },
@@ -1205,7 +1205,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "isValue",
-                              "referencedDeclaration": 5421,
+                              "referencedDeclaration": 5466,
                               "type": "bool"
                             },
                             "children": [
@@ -1225,11 +1225,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5430,
+                                      "referencedDeclaration": 5475,
                                       "type": "mapping(bytes32 => struct DelayOracle.Record storage ref)",
                                       "value": "queryRecords"
                                     },
-                                    "id": 5472,
+                                    "id": 5517,
                                     "name": "Identifier",
                                     "src": "1037:12:11"
                                   },
@@ -1239,38 +1239,38 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5458,
+                                      "referencedDeclaration": 5503,
                                       "type": "bytes32",
                                       "value": "queryId"
                                     },
-                                    "id": 5473,
+                                    "id": 5518,
                                     "name": "Identifier",
                                     "src": "1050:7:11"
                                   }
                                 ],
-                                "id": 5474,
+                                "id": 5519,
                                 "name": "IndexAccess",
                                 "src": "1037:21:11"
                               }
                             ],
-                            "id": 5475,
+                            "id": 5520,
                             "name": "MemberAccess",
                             "src": "1037:29:11"
                           }
                         ],
-                        "id": 5476,
+                        "id": 5521,
                         "name": "FunctionCall",
                         "src": "1029:38:11"
                       }
                     ],
-                    "id": 5477,
+                    "id": 5522,
                     "name": "ExpressionStatement",
                     "src": "1029:38:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5478
+                        5523
                       ]
                     },
                     "children": [
@@ -1278,7 +1278,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "s",
-                          "scope": 5566,
+                          "scope": 5611,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "struct strings.slice memory",
@@ -1287,7 +1287,7 @@
                           "visibility": "internal"
                         },
                         "children": [],
-                        "id": 5478,
+                        "id": 5523,
                         "name": "VariableDeclaration",
                         "src": "1078:5:11"
                       },
@@ -1319,7 +1319,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "toSlice",
-                              "referencedDeclaration": 13407,
+                              "referencedDeclaration": 13452,
                               "type": "function (string memory) pure returns (struct strings.slice memory)"
                             },
                             "children": [
@@ -1329,33 +1329,33 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5460,
+                                  "referencedDeclaration": 5505,
                                   "type": "string memory",
                                   "value": "result"
                                 },
-                                "id": 5479,
+                                "id": 5524,
                                 "name": "Identifier",
                                 "src": "1086:6:11"
                               }
                             ],
-                            "id": 5480,
+                            "id": 5525,
                             "name": "MemberAccess",
                             "src": "1086:14:11"
                           }
                         ],
-                        "id": 5481,
+                        "id": 5526,
                         "name": "FunctionCall",
                         "src": "1086:16:11"
                       }
                     ],
-                    "id": 5482,
+                    "id": 5527,
                     "name": "VariableDeclarationStatement",
                     "src": "1078:24:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5483
+                        5528
                       ]
                     },
                     "children": [
@@ -1363,7 +1363,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "d",
-                          "scope": 5566,
+                          "scope": 5611,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "struct strings.slice memory",
@@ -1372,7 +1372,7 @@
                           "visibility": "internal"
                         },
                         "children": [],
-                        "id": 5483,
+                        "id": 5528,
                         "name": "VariableDeclaration",
                         "src": "1112:5:11"
                       },
@@ -1395,7 +1395,7 @@
                             "attributes": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_struct$_slice_$13347_memory_ptr",
+                                  "typeIdentifier": "t_struct$_slice_$13392_memory_ptr",
                                   "typeString": "struct strings.slice memory"
                                 }
                               ],
@@ -1404,7 +1404,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "split",
-                              "referencedDeclaration": 14698,
+                              "referencedDeclaration": 14743,
                               "type": "function (struct strings.slice memory,struct strings.slice memory) pure returns (struct strings.slice memory)"
                             },
                             "children": [
@@ -1414,16 +1414,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5478,
+                                  "referencedDeclaration": 5523,
                                   "type": "struct strings.slice memory",
                                   "value": "s"
                                 },
-                                "id": 5484,
+                                "id": 5529,
                                 "name": "Identifier",
                                 "src": "1120:1:11"
                               }
                             ],
-                            "id": 5485,
+                            "id": 5530,
                             "name": "MemberAccess",
                             "src": "1120:7:11"
                           },
@@ -1455,7 +1455,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "toSlice",
-                                  "referencedDeclaration": 13407,
+                                  "referencedDeclaration": 13452,
                                   "type": "function (string memory) pure returns (struct strings.slice memory)"
                                 },
                                 "children": [
@@ -1472,27 +1472,27 @@
                                       "type": "literal_string \", \"",
                                       "value": ", "
                                     },
-                                    "id": 5486,
+                                    "id": 5531,
                                     "name": "Literal",
                                     "src": "1128:4:11"
                                   }
                                 ],
-                                "id": 5487,
+                                "id": 5532,
                                 "name": "MemberAccess",
                                 "src": "1128:12:11"
                               }
                             ],
-                            "id": 5488,
+                            "id": 5533,
                             "name": "FunctionCall",
                             "src": "1128:14:11"
                           }
                         ],
-                        "id": 5489,
+                        "id": 5534,
                         "name": "FunctionCall",
                         "src": "1120:23:11"
                       }
                     ],
-                    "id": 5490,
+                    "id": 5535,
                     "name": "VariableDeclarationStatement",
                     "src": "1112:31:11"
                   },
@@ -1515,11 +1515,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5483,
+                              "referencedDeclaration": 5528,
                               "type": "struct strings.slice memory",
                               "value": "d"
                             },
-                            "id": 5491,
+                            "id": 5536,
                             "name": "Identifier",
                             "src": "1153:1:11"
                           },
@@ -1542,7 +1542,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_struct$_slice_$13347_memory_ptr",
+                                      "typeIdentifier": "t_struct$_slice_$13392_memory_ptr",
                                       "typeString": "struct strings.slice memory"
                                     }
                                   ],
@@ -1551,7 +1551,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "beyond",
-                                  "referencedDeclaration": 14191,
+                                  "referencedDeclaration": 14236,
                                   "type": "function (struct strings.slice memory,struct strings.slice memory) pure returns (struct strings.slice memory)"
                                 },
                                 "children": [
@@ -1561,16 +1561,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5483,
+                                      "referencedDeclaration": 5528,
                                       "type": "struct strings.slice memory",
                                       "value": "d"
                                     },
-                                    "id": 5492,
+                                    "id": 5537,
                                     "name": "Identifier",
                                     "src": "1157:1:11"
                                   }
                                 ],
-                                "id": 5493,
+                                "id": 5538,
                                 "name": "MemberAccess",
                                 "src": "1157:8:11"
                               },
@@ -1602,7 +1602,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "toSlice",
-                                      "referencedDeclaration": 13407,
+                                      "referencedDeclaration": 13452,
                                       "type": "function (string memory) pure returns (struct strings.slice memory)"
                                     },
                                     "children": [
@@ -1619,32 +1619,32 @@
                                           "type": "literal_string \"[\"\"",
                                           "value": "[\""
                                         },
-                                        "id": 5494,
+                                        "id": 5539,
                                         "name": "Literal",
                                         "src": "1166:5:11"
                                       }
                                     ],
-                                    "id": 5495,
+                                    "id": 5540,
                                     "name": "MemberAccess",
                                     "src": "1166:13:11"
                                   }
                                 ],
-                                "id": 5496,
+                                "id": 5541,
                                 "name": "FunctionCall",
                                 "src": "1166:15:11"
                               }
                             ],
-                            "id": 5497,
+                            "id": 5542,
                             "name": "FunctionCall",
                             "src": "1157:25:11"
                           }
                         ],
-                        "id": 5498,
+                        "id": 5543,
                         "name": "Assignment",
                         "src": "1153:29:11"
                       }
                     ],
-                    "id": 5499,
+                    "id": 5544,
                     "name": "ExpressionStatement",
                     "src": "1153:29:11"
                   },
@@ -1667,11 +1667,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5483,
+                              "referencedDeclaration": 5528,
                               "type": "struct strings.slice memory",
                               "value": "d"
                             },
-                            "id": 5500,
+                            "id": 5545,
                             "name": "Identifier",
                             "src": "1192:1:11"
                           },
@@ -1694,7 +1694,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_struct$_slice_$13347_memory_ptr",
+                                      "typeIdentifier": "t_struct$_slice_$13392_memory_ptr",
                                       "typeString": "struct strings.slice memory"
                                     }
                                   ],
@@ -1703,7 +1703,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "until",
-                                  "referencedDeclaration": 14288,
+                                  "referencedDeclaration": 14333,
                                   "type": "function (struct strings.slice memory,struct strings.slice memory) pure returns (struct strings.slice memory)"
                                 },
                                 "children": [
@@ -1713,16 +1713,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5483,
+                                      "referencedDeclaration": 5528,
                                       "type": "struct strings.slice memory",
                                       "value": "d"
                                     },
-                                    "id": 5501,
+                                    "id": 5546,
                                     "name": "Identifier",
                                     "src": "1196:1:11"
                                   }
                                 ],
-                                "id": 5502,
+                                "id": 5547,
                                 "name": "MemberAccess",
                                 "src": "1196:7:11"
                               },
@@ -1754,7 +1754,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "toSlice",
-                                      "referencedDeclaration": 13407,
+                                      "referencedDeclaration": 13452,
                                       "type": "function (string memory) pure returns (struct strings.slice memory)"
                                     },
                                     "children": [
@@ -1771,39 +1771,39 @@
                                           "type": "literal_string \"\"\"",
                                           "value": "\""
                                         },
-                                        "id": 5503,
+                                        "id": 5548,
                                         "name": "Literal",
                                         "src": "1204:4:11"
                                       }
                                     ],
-                                    "id": 5504,
+                                    "id": 5549,
                                     "name": "MemberAccess",
                                     "src": "1204:12:11"
                                   }
                                 ],
-                                "id": 5505,
+                                "id": 5550,
                                 "name": "FunctionCall",
                                 "src": "1204:14:11"
                               }
                             ],
-                            "id": 5506,
+                            "id": 5551,
                             "name": "FunctionCall",
                             "src": "1196:23:11"
                           }
                         ],
-                        "id": 5507,
+                        "id": 5552,
                         "name": "Assignment",
                         "src": "1192:27:11"
                       }
                     ],
-                    "id": 5508,
+                    "id": 5553,
                     "name": "ExpressionStatement",
                     "src": "1192:27:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5510
+                        5555
                       ]
                     },
                     "children": [
@@ -1811,7 +1811,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "_arrScheduled",
-                          "scope": 5566,
+                          "scope": 5611,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -1824,12 +1824,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5509,
+                            "id": 5554,
                             "name": "ElementaryTypeName",
                             "src": "1229:6:11"
                           }
                         ],
-                        "id": 5510,
+                        "id": 5555,
                         "name": "VariableDeclaration",
                         "src": "1229:27:11"
                       },
@@ -1861,7 +1861,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "toString",
-                              "referencedDeclaration": 13585,
+                              "referencedDeclaration": 13630,
                               "type": "function (struct strings.slice memory) pure returns (string memory)"
                             },
                             "children": [
@@ -1871,26 +1871,26 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5483,
+                                  "referencedDeclaration": 5528,
                                   "type": "struct strings.slice memory",
                                   "value": "d"
                                 },
-                                "id": 5511,
+                                "id": 5556,
                                 "name": "Identifier",
                                 "src": "1259:1:11"
                               }
                             ],
-                            "id": 5512,
+                            "id": 5557,
                             "name": "MemberAccess",
                             "src": "1259:10:11"
                           }
                         ],
-                        "id": 5513,
+                        "id": 5558,
                         "name": "FunctionCall",
                         "src": "1259:12:11"
                       }
                     ],
-                    "id": 5514,
+                    "id": 5559,
                     "name": "VariableDeclarationStatement",
                     "src": "1229:42:11"
                   },
@@ -1913,11 +1913,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5478,
+                              "referencedDeclaration": 5523,
                               "type": "struct strings.slice memory",
                               "value": "s"
                             },
-                            "id": 5515,
+                            "id": 5560,
                             "name": "Identifier",
                             "src": "1281:1:11"
                           },
@@ -1940,7 +1940,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_struct$_slice_$13347_memory_ptr",
+                                      "typeIdentifier": "t_struct$_slice_$13392_memory_ptr",
                                       "typeString": "struct strings.slice memory"
                                     }
                                   ],
@@ -1949,7 +1949,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "until",
-                                  "referencedDeclaration": 14288,
+                                  "referencedDeclaration": 14333,
                                   "type": "function (struct strings.slice memory,struct strings.slice memory) pure returns (struct strings.slice memory)"
                                 },
                                 "children": [
@@ -1959,16 +1959,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5478,
+                                      "referencedDeclaration": 5523,
                                       "type": "struct strings.slice memory",
                                       "value": "s"
                                     },
-                                    "id": 5516,
+                                    "id": 5561,
                                     "name": "Identifier",
                                     "src": "1285:1:11"
                                   }
                                 ],
-                                "id": 5517,
+                                "id": 5562,
                                 "name": "MemberAccess",
                                 "src": "1285:7:11"
                               },
@@ -2000,7 +2000,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "toSlice",
-                                      "referencedDeclaration": 13407,
+                                      "referencedDeclaration": 13452,
                                       "type": "function (string memory) pure returns (struct strings.slice memory)"
                                     },
                                     "children": [
@@ -2017,39 +2017,39 @@
                                           "type": "literal_string \"\"]\"",
                                           "value": "\"]"
                                         },
-                                        "id": 5518,
+                                        "id": 5563,
                                         "name": "Literal",
                                         "src": "1293:5:11"
                                       }
                                     ],
-                                    "id": 5519,
+                                    "id": 5564,
                                     "name": "MemberAccess",
                                     "src": "1293:13:11"
                                   }
                                 ],
-                                "id": 5520,
+                                "id": 5565,
                                 "name": "FunctionCall",
                                 "src": "1293:15:11"
                               }
                             ],
-                            "id": 5521,
+                            "id": 5566,
                             "name": "FunctionCall",
                             "src": "1285:24:11"
                           }
                         ],
-                        "id": 5522,
+                        "id": 5567,
                         "name": "Assignment",
                         "src": "1281:28:11"
                       }
                     ],
-                    "id": 5523,
+                    "id": 5568,
                     "name": "ExpressionStatement",
                     "src": "1281:28:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5525
+                        5570
                       ]
                     },
                     "children": [
@@ -2057,7 +2057,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "_arrActual",
-                          "scope": 5566,
+                          "scope": 5611,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -2070,12 +2070,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5524,
+                            "id": 5569,
                             "name": "ElementaryTypeName",
                             "src": "1319:6:11"
                           }
                         ],
-                        "id": 5525,
+                        "id": 5570,
                         "name": "VariableDeclaration",
                         "src": "1319:24:11"
                       },
@@ -2107,7 +2107,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "toString",
-                              "referencedDeclaration": 13585,
+                              "referencedDeclaration": 13630,
                               "type": "function (struct strings.slice memory) pure returns (string memory)"
                             },
                             "children": [
@@ -2130,7 +2130,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_struct$_slice_$13347_memory_ptr",
+                                          "typeIdentifier": "t_struct$_slice_$13392_memory_ptr",
                                           "typeString": "struct strings.slice memory"
                                         }
                                       ],
@@ -2139,7 +2139,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "beyond",
-                                      "referencedDeclaration": 14191,
+                                      "referencedDeclaration": 14236,
                                       "type": "function (struct strings.slice memory,struct strings.slice memory) pure returns (struct strings.slice memory)"
                                     },
                                     "children": [
@@ -2149,16 +2149,16 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 5478,
+                                          "referencedDeclaration": 5523,
                                           "type": "struct strings.slice memory",
                                           "value": "s"
                                         },
-                                        "id": 5526,
+                                        "id": 5571,
                                         "name": "Identifier",
                                         "src": "1346:1:11"
                                       }
                                     ],
-                                    "id": 5527,
+                                    "id": 5572,
                                     "name": "MemberAccess",
                                     "src": "1346:8:11"
                                   },
@@ -2190,7 +2190,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "toSlice",
-                                          "referencedDeclaration": 13407,
+                                          "referencedDeclaration": 13452,
                                           "type": "function (string memory) pure returns (struct strings.slice memory)"
                                         },
                                         "children": [
@@ -2207,37 +2207,37 @@
                                               "type": "literal_string \"\"\"",
                                               "value": "\""
                                             },
-                                            "id": 5528,
+                                            "id": 5573,
                                             "name": "Literal",
                                             "src": "1355:4:11"
                                           }
                                         ],
-                                        "id": 5529,
+                                        "id": 5574,
                                         "name": "MemberAccess",
                                         "src": "1355:12:11"
                                       }
                                     ],
-                                    "id": 5530,
+                                    "id": 5575,
                                     "name": "FunctionCall",
                                     "src": "1355:14:11"
                                   }
                                 ],
-                                "id": 5531,
+                                "id": 5576,
                                 "name": "FunctionCall",
                                 "src": "1346:24:11"
                               }
                             ],
-                            "id": 5532,
+                            "id": 5577,
                             "name": "MemberAccess",
                             "src": "1346:33:11"
                           }
                         ],
-                        "id": 5533,
+                        "id": 5578,
                         "name": "FunctionCall",
                         "src": "1346:35:11"
                       }
                     ],
-                    "id": 5534,
+                    "id": 5579,
                     "name": "VariableDeclarationStatement",
                     "src": "1319:62:11"
                   },
@@ -2246,8 +2246,8 @@
                       "assignments": [
                         null,
                         null,
-                        5535,
-                        5536
+                        5580,
+                        5581
                       ]
                     },
                     "children": [
@@ -2255,7 +2255,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "delays",
-                          "scope": 5566,
+                          "scope": 5611,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "int256",
@@ -2264,7 +2264,7 @@
                           "visibility": "internal"
                         },
                         "children": [],
-                        "id": 5535,
+                        "id": 5580,
                         "name": "VariableDeclaration",
                         "src": "1400:6:11"
                       },
@@ -2272,7 +2272,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "isDelay",
-                          "scope": 5566,
+                          "scope": 5611,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "bool",
@@ -2281,7 +2281,7 @@
                           "visibility": "internal"
                         },
                         "children": [],
-                        "id": 5536,
+                        "id": 5581,
                         "name": "VariableDeclaration",
                         "src": "1408:7:11"
                       },
@@ -2315,11 +2315,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5624,
+                              "referencedDeclaration": 5669,
                               "type": "function (string memory,string memory) returns (uint256,uint256,int256,bool)",
                               "value": "checkDelay"
                             },
-                            "id": 5537,
+                            "id": 5582,
                             "name": "Identifier",
                             "src": "1419:10:11"
                           },
@@ -2329,11 +2329,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5510,
+                              "referencedDeclaration": 5555,
                               "type": "string memory",
                               "value": "_arrScheduled"
                             },
-                            "id": 5538,
+                            "id": 5583,
                             "name": "Identifier",
                             "src": "1430:13:11"
                           },
@@ -2343,21 +2343,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5525,
+                              "referencedDeclaration": 5570,
                               "type": "string memory",
                               "value": "_arrActual"
                             },
-                            "id": 5539,
+                            "id": 5584,
                             "name": "Identifier",
                             "src": "1445:10:11"
                           }
                         ],
-                        "id": 5540,
+                        "id": 5585,
                         "name": "FunctionCall",
                         "src": "1419:37:11"
                       }
                     ],
-                    "id": 5541,
+                    "id": 5586,
                     "name": "VariableDeclarationStatement",
                     "src": "1391:65:11"
                   },
@@ -2390,11 +2390,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5434,
+                                  "referencedDeclaration": 5479,
                                   "type": "mapping(bytes32 => struct DelayOracle.Info storage ref)",
                                   "value": "results"
                                 },
-                                "id": 5542,
+                                "id": 5587,
                                 "name": "Identifier",
                                 "src": "1466:7:11"
                               },
@@ -2424,11 +2424,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15604,
+                                      "referencedDeclaration": 15649,
                                       "type": "function () pure returns (bytes32)",
                                       "value": "keccak256"
                                     },
-                                    "id": 5543,
+                                    "id": 5588,
                                     "name": "Identifier",
                                     "src": "1474:9:11"
                                   },
@@ -2440,7 +2440,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "record",
-                                      "referencedDeclaration": 5419,
+                                      "referencedDeclaration": 5464,
                                       "type": "string storage ref"
                                     },
                                     "children": [
@@ -2460,11 +2460,11 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 5430,
+                                              "referencedDeclaration": 5475,
                                               "type": "mapping(bytes32 => struct DelayOracle.Record storage ref)",
                                               "value": "queryRecords"
                                             },
-                                            "id": 5544,
+                                            "id": 5589,
                                             "name": "Identifier",
                                             "src": "1484:12:11"
                                           },
@@ -2474,31 +2474,31 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 5458,
+                                              "referencedDeclaration": 5503,
                                               "type": "bytes32",
                                               "value": "queryId"
                                             },
-                                            "id": 5545,
+                                            "id": 5590,
                                             "name": "Identifier",
                                             "src": "1497:7:11"
                                           }
                                         ],
-                                        "id": 5546,
+                                        "id": 5591,
                                         "name": "IndexAccess",
                                         "src": "1484:21:11"
                                       }
                                     ],
-                                    "id": 5547,
+                                    "id": 5592,
                                     "name": "MemberAccess",
                                     "src": "1484:28:11"
                                   }
                                 ],
-                                "id": 5548,
+                                "id": 5593,
                                 "name": "FunctionCall",
                                 "src": "1474:39:11"
                               }
                             ],
-                            "id": 5549,
+                            "id": 5594,
                             "name": "IndexAccess",
                             "src": "1466:48:11"
                           },
@@ -2526,11 +2526,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5417,
+                                  "referencedDeclaration": 5462,
                                   "type": "type(struct DelayOracle.Info storage pointer)",
                                   "value": "Info"
                                 },
-                                "id": 5550,
+                                "id": 5595,
                                 "name": "Identifier",
                                 "src": "1530:4:11"
                               },
@@ -2540,11 +2540,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5510,
+                                  "referencedDeclaration": 5555,
                                   "type": "string memory",
                                   "value": "_arrScheduled"
                                 },
-                                "id": 5551,
+                                "id": 5596,
                                 "name": "Identifier",
                                 "src": "1550:13:11"
                               },
@@ -2554,11 +2554,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5525,
+                                  "referencedDeclaration": 5570,
                                   "type": "string memory",
                                   "value": "_arrActual"
                                 },
-                                "id": 5552,
+                                "id": 5597,
                                 "name": "Identifier",
                                 "src": "1576:10:11"
                               },
@@ -2568,11 +2568,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5535,
+                                  "referencedDeclaration": 5580,
                                   "type": "int256",
                                   "value": "delays"
                                 },
-                                "id": 5553,
+                                "id": 5598,
                                 "name": "Identifier",
                                 "src": "1596:6:11"
                               },
@@ -2582,26 +2582,26 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5536,
+                                  "referencedDeclaration": 5581,
                                   "type": "bool",
                                   "value": "isDelay"
                                 },
-                                "id": 5554,
+                                "id": 5599,
                                 "name": "Identifier",
                                 "src": "1613:7:11"
                               }
                             ],
-                            "id": 5555,
+                            "id": 5600,
                             "name": "FunctionCall",
                             "src": "1530:93:11"
                           }
                         ],
-                        "id": 5556,
+                        "id": 5601,
                         "name": "Assignment",
                         "src": "1466:157:11"
                       }
                     ],
-                    "id": 5557,
+                    "id": 5602,
                     "name": "ExpressionStatement",
                     "src": "1466:157:11"
                   },
@@ -2633,11 +2633,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5438,
+                              "referencedDeclaration": 5483,
                               "type": "function (string memory)",
                               "value": "LogDelayInfoUpdated"
                             },
-                            "id": 5558,
+                            "id": 5603,
                             "name": "Identifier",
                             "src": "1633:19:11"
                           },
@@ -2649,7 +2649,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "record",
-                              "referencedDeclaration": 5419,
+                              "referencedDeclaration": 5464,
                               "type": "string storage ref"
                             },
                             "children": [
@@ -2669,11 +2669,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5430,
+                                      "referencedDeclaration": 5475,
                                       "type": "mapping(bytes32 => struct DelayOracle.Record storage ref)",
                                       "value": "queryRecords"
                                     },
-                                    "id": 5559,
+                                    "id": 5604,
                                     "name": "Identifier",
                                     "src": "1653:12:11"
                                   },
@@ -2683,41 +2683,41 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5458,
+                                      "referencedDeclaration": 5503,
                                       "type": "bytes32",
                                       "value": "queryId"
                                     },
-                                    "id": 5560,
+                                    "id": 5605,
                                     "name": "Identifier",
                                     "src": "1666:7:11"
                                   }
                                 ],
-                                "id": 5561,
+                                "id": 5606,
                                 "name": "IndexAccess",
                                 "src": "1653:21:11"
                               }
                             ],
-                            "id": 5562,
+                            "id": 5607,
                             "name": "MemberAccess",
                             "src": "1653:28:11"
                           }
                         ],
-                        "id": 5563,
+                        "id": 5608,
                         "name": "FunctionCall",
                         "src": "1633:49:11"
                       }
                     ],
-                    "id": 5564,
+                    "id": 5609,
                     "name": "ExpressionStatement",
                     "src": "1633:49:11"
                   }
                 ],
-                "id": 5565,
+                "id": 5610,
                 "name": "Block",
                 "src": "966:732:11"
               }
             ],
-            "id": 5566,
+            "id": 5611,
             "name": "FunctionDefinition",
             "src": "907:791:11"
           },
@@ -2731,7 +2731,7 @@
               ],
               "name": "checkDelay",
               "payable": false,
-              "scope": 5694,
+              "scope": 5739,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "internal"
@@ -2743,7 +2743,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_arrScheduled",
-                      "scope": 5624,
+                      "scope": 5669,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -2756,12 +2756,12 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5567,
+                        "id": 5612,
                         "name": "ElementaryTypeName",
                         "src": "1723:6:11"
                       }
                     ],
-                    "id": 5568,
+                    "id": 5613,
                     "name": "VariableDeclaration",
                     "src": "1723:20:11"
                   },
@@ -2769,7 +2769,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_arrActual",
-                      "scope": 5624,
+                      "scope": 5669,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -2782,17 +2782,17 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5569,
+                        "id": 5614,
                         "name": "ElementaryTypeName",
                         "src": "1745:6:11"
                       }
                     ],
-                    "id": 5570,
+                    "id": 5615,
                     "name": "VariableDeclaration",
                     "src": "1745:17:11"
                   }
                 ],
-                "id": 5571,
+                "id": 5616,
                 "name": "ParameterList",
                 "src": "1722:41:11"
               },
@@ -2802,7 +2802,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "scheduledM",
-                      "scope": 5624,
+                      "scope": 5669,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2815,12 +2815,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 5572,
+                        "id": 5617,
                         "name": "ElementaryTypeName",
                         "src": "1782:4:11"
                       }
                     ],
-                    "id": 5573,
+                    "id": 5618,
                     "name": "VariableDeclaration",
                     "src": "1782:15:11"
                   },
@@ -2828,7 +2828,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "acrualM",
-                      "scope": 5624,
+                      "scope": 5669,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2841,12 +2841,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 5574,
+                        "id": 5619,
                         "name": "ElementaryTypeName",
                         "src": "1799:4:11"
                       }
                     ],
-                    "id": 5575,
+                    "id": 5620,
                     "name": "VariableDeclaration",
                     "src": "1799:12:11"
                   },
@@ -2854,7 +2854,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "delays",
-                      "scope": 5624,
+                      "scope": 5669,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "int256",
@@ -2867,12 +2867,12 @@
                           "name": "int",
                           "type": "int256"
                         },
-                        "id": 5576,
+                        "id": 5621,
                         "name": "ElementaryTypeName",
                         "src": "1813:3:11"
                       }
                     ],
-                    "id": 5577,
+                    "id": 5622,
                     "name": "VariableDeclaration",
                     "src": "1813:10:11"
                   },
@@ -2880,7 +2880,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "isDelay",
-                      "scope": 5624,
+                      "scope": 5669,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -2893,17 +2893,17 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 5578,
+                        "id": 5623,
                         "name": "ElementaryTypeName",
                         "src": "1825:4:11"
                       }
                     ],
-                    "id": 5579,
+                    "id": 5624,
                     "name": "VariableDeclaration",
                     "src": "1825:12:11"
                   }
                 ],
-                "id": 5580,
+                "id": 5625,
                 "name": "ParameterList",
                 "src": "1781:57:11"
               },
@@ -2912,7 +2912,7 @@
                   {
                     "attributes": {
                       "assignments": [
-                        5582
+                        5627
                       ]
                     },
                     "children": [
@@ -2920,7 +2920,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "aReturn",
-                          "scope": 5624,
+                          "scope": 5669,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "uint256",
@@ -2933,12 +2933,12 @@
                               "name": "uint",
                               "type": "uint256"
                             },
-                            "id": 5581,
+                            "id": 5626,
                             "name": "ElementaryTypeName",
                             "src": "1848:4:11"
                           }
                         ],
-                        "id": 5582,
+                        "id": 5627,
                         "name": "VariableDeclaration",
                         "src": "1848:12:11"
                       },
@@ -2970,7 +2970,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "getDatetime",
-                              "referencedDeclaration": 6713,
+                              "referencedDeclaration": 6758,
                               "type": "function (string memory) returns (uint256)"
                             },
                             "children": [
@@ -2980,16 +2980,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7518,
+                                  "referencedDeclaration": 7563,
                                   "type": "type(library Utility)",
                                   "value": "Utility"
                                 },
-                                "id": 5583,
+                                "id": 5628,
                                 "name": "Identifier",
                                 "src": "1863:7:11"
                               }
                             ],
-                            "id": 5584,
+                            "id": 5629,
                             "name": "MemberAccess",
                             "src": "1863:19:11"
                           },
@@ -2999,28 +2999,28 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5568,
+                              "referencedDeclaration": 5613,
                               "type": "string memory",
                               "value": "_arrScheduled"
                             },
-                            "id": 5585,
+                            "id": 5630,
                             "name": "Identifier",
                             "src": "1883:13:11"
                           }
                         ],
-                        "id": 5586,
+                        "id": 5631,
                         "name": "FunctionCall",
                         "src": "1863:34:11"
                       }
                     ],
-                    "id": 5587,
+                    "id": 5632,
                     "name": "VariableDeclarationStatement",
                     "src": "1848:49:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5589
+                        5634
                       ]
                     },
                     "children": [
@@ -3028,7 +3028,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "bReturn",
-                          "scope": 5624,
+                          "scope": 5669,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "uint256",
@@ -3041,12 +3041,12 @@
                               "name": "uint",
                               "type": "uint256"
                             },
-                            "id": 5588,
+                            "id": 5633,
                             "name": "ElementaryTypeName",
                             "src": "1907:4:11"
                           }
                         ],
-                        "id": 5589,
+                        "id": 5634,
                         "name": "VariableDeclaration",
                         "src": "1907:12:11"
                       },
@@ -3078,7 +3078,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "getDatetime",
-                              "referencedDeclaration": 6713,
+                              "referencedDeclaration": 6758,
                               "type": "function (string memory) returns (uint256)"
                             },
                             "children": [
@@ -3088,16 +3088,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7518,
+                                  "referencedDeclaration": 7563,
                                   "type": "type(library Utility)",
                                   "value": "Utility"
                                 },
-                                "id": 5590,
+                                "id": 5635,
                                 "name": "Identifier",
                                 "src": "1922:7:11"
                               }
                             ],
-                            "id": 5591,
+                            "id": 5636,
                             "name": "MemberAccess",
                             "src": "1922:19:11"
                           },
@@ -3107,21 +3107,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5570,
+                              "referencedDeclaration": 5615,
                               "type": "string memory",
                               "value": "_arrActual"
                             },
-                            "id": 5592,
+                            "id": 5637,
                             "name": "Identifier",
                             "src": "1942:10:11"
                           }
                         ],
-                        "id": 5593,
+                        "id": 5638,
                         "name": "FunctionCall",
                         "src": "1922:31:11"
                       }
                     ],
-                    "id": 5594,
+                    "id": 5639,
                     "name": "VariableDeclarationStatement",
                     "src": "1907:46:11"
                   },
@@ -3144,11 +3144,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5577,
+                              "referencedDeclaration": 5622,
                               "type": "int256",
                               "value": "delays"
                             },
-                            "id": 5595,
+                            "id": 5640,
                             "name": "Identifier",
                             "src": "1963:6:11"
                           },
@@ -3182,7 +3182,7 @@
                                   "type": "type(int256)",
                                   "value": "int"
                                 },
-                                "id": 5596,
+                                "id": 5641,
                                 "name": "ElementaryTypeNameExpression",
                                 "src": "1972:3:11"
                               },
@@ -3207,11 +3207,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5589,
+                                      "referencedDeclaration": 5634,
                                       "type": "uint256",
                                       "value": "bReturn"
                                     },
-                                    "id": 5597,
+                                    "id": 5642,
                                     "name": "Identifier",
                                     "src": "1976:7:11"
                                   },
@@ -3221,31 +3221,31 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5582,
+                                      "referencedDeclaration": 5627,
                                       "type": "uint256",
                                       "value": "aReturn"
                                     },
-                                    "id": 5598,
+                                    "id": 5643,
                                     "name": "Identifier",
                                     "src": "1986:7:11"
                                   }
                                 ],
-                                "id": 5599,
+                                "id": 5644,
                                 "name": "BinaryOperation",
                                 "src": "1976:17:11"
                               }
                             ],
-                            "id": 5600,
+                            "id": 5645,
                             "name": "FunctionCall",
                             "src": "1972:22:11"
                           }
                         ],
-                        "id": 5601,
+                        "id": 5646,
                         "name": "Assignment",
                         "src": "1963:31:11"
                       }
                     ],
-                    "id": 5602,
+                    "id": 5647,
                     "name": "ExpressionStatement",
                     "src": "1963:31:11"
                   },
@@ -3272,11 +3272,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5577,
+                              "referencedDeclaration": 5622,
                               "type": "int256",
                               "value": "delays"
                             },
-                            "id": 5603,
+                            "id": 5648,
                             "name": "Identifier",
                             "src": "2008:6:11"
                           },
@@ -3293,12 +3293,12 @@
                               "type": "int_const 3600",
                               "value": "3600"
                             },
-                            "id": 5604,
+                            "id": 5649,
                             "name": "Literal",
                             "src": "2017:4:11"
                           }
                         ],
-                        "id": 5605,
+                        "id": 5650,
                         "name": "BinaryOperation",
                         "src": "2008:13:11"
                       },
@@ -3323,11 +3323,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5579,
+                                      "referencedDeclaration": 5624,
                                       "type": "bool",
                                       "value": "isDelay"
                                     },
-                                    "id": 5606,
+                                    "id": 5651,
                                     "name": "Identifier",
                                     "src": "2037:7:11"
                                   },
@@ -3344,22 +3344,22 @@
                                       "type": "bool",
                                       "value": "true"
                                     },
-                                    "id": 5607,
+                                    "id": 5652,
                                     "name": "Literal",
                                     "src": "2047:4:11"
                                   }
                                 ],
-                                "id": 5608,
+                                "id": 5653,
                                 "name": "Assignment",
                                 "src": "2037:14:11"
                               }
                             ],
-                            "id": 5609,
+                            "id": 5654,
                             "name": "ExpressionStatement",
                             "src": "2037:14:11"
                           }
                         ],
-                        "id": 5610,
+                        "id": 5655,
                         "name": "Block",
                         "src": "2023:39:11"
                       },
@@ -3384,11 +3384,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5579,
+                                      "referencedDeclaration": 5624,
                                       "type": "bool",
                                       "value": "isDelay"
                                     },
-                                    "id": 5611,
+                                    "id": 5656,
                                     "name": "Identifier",
                                     "src": "2082:7:11"
                                   },
@@ -3405,33 +3405,33 @@
                                       "type": "bool",
                                       "value": "false"
                                     },
-                                    "id": 5612,
+                                    "id": 5657,
                                     "name": "Literal",
                                     "src": "2092:5:11"
                                   }
                                 ],
-                                "id": 5613,
+                                "id": 5658,
                                 "name": "Assignment",
                                 "src": "2082:15:11"
                               }
                             ],
-                            "id": 5614,
+                            "id": 5659,
                             "name": "ExpressionStatement",
                             "src": "2082:15:11"
                           }
                         ],
-                        "id": 5615,
+                        "id": 5660,
                         "name": "Block",
                         "src": "2068:40:11"
                       }
                     ],
-                    "id": 5616,
+                    "id": 5661,
                     "name": "IfStatement",
                     "src": "2004:104:11"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 5580
+                      "functionReturnParameters": 5625
                     },
                     "children": [
                       {
@@ -3451,11 +3451,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5582,
+                              "referencedDeclaration": 5627,
                               "type": "uint256",
                               "value": "aReturn"
                             },
-                            "id": 5617,
+                            "id": 5662,
                             "name": "Identifier",
                             "src": "2125:7:11"
                           },
@@ -3465,11 +3465,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5589,
+                              "referencedDeclaration": 5634,
                               "type": "uint256",
                               "value": "bReturn"
                             },
-                            "id": 5618,
+                            "id": 5663,
                             "name": "Identifier",
                             "src": "2134:7:11"
                           },
@@ -3479,11 +3479,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5577,
+                              "referencedDeclaration": 5622,
                               "type": "int256",
                               "value": "delays"
                             },
-                            "id": 5619,
+                            "id": 5664,
                             "name": "Identifier",
                             "src": "2143:6:11"
                           },
@@ -3493,31 +3493,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5579,
+                              "referencedDeclaration": 5624,
                               "type": "bool",
                               "value": "isDelay"
                             },
-                            "id": 5620,
+                            "id": 5665,
                             "name": "Identifier",
                             "src": "2151:7:11"
                           }
                         ],
-                        "id": 5621,
+                        "id": 5666,
                         "name": "TupleExpression",
                         "src": "2124:35:11"
                       }
                     ],
-                    "id": 5622,
+                    "id": 5667,
                     "name": "Return",
                     "src": "2117:42:11"
                   }
                 ],
-                "id": 5623,
+                "id": 5668,
                 "name": "Block",
                 "src": "1838:328:11"
               }
             ],
-            "id": 5624,
+            "id": 5669,
             "name": "FunctionDefinition",
             "src": "1703:463:11"
           },
@@ -3531,7 +3531,7 @@
               ],
               "name": "query",
               "payable": true,
-              "scope": 5694,
+              "scope": 5739,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "public"
@@ -3543,7 +3543,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "flightNo",
-                      "scope": 5693,
+                      "scope": 5738,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -3556,12 +3556,12 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5625,
+                        "id": 5670,
                         "name": "ElementaryTypeName",
                         "src": "3774:6:11"
                       }
                     ],
-                    "id": 5626,
+                    "id": 5671,
                     "name": "VariableDeclaration",
                     "src": "3774:15:11"
                   },
@@ -3569,7 +3569,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "flightDate",
-                      "scope": 5693,
+                      "scope": 5738,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string memory",
@@ -3582,17 +3582,17 @@
                           "name": "string",
                           "type": "string storage pointer"
                         },
-                        "id": 5627,
+                        "id": 5672,
                         "name": "ElementaryTypeName",
                         "src": "3791:6:11"
                       }
                     ],
-                    "id": 5628,
+                    "id": 5673,
                     "name": "VariableDeclaration",
                     "src": "3791:17:11"
                   }
                 ],
-                "id": 5629,
+                "id": 5674,
                 "name": "ParameterList",
                 "src": "3773:36:11"
               },
@@ -3603,7 +3603,7 @@
                   ]
                 },
                 "children": [],
-                "id": 5630,
+                "id": 5675,
                 "name": "ParameterList",
                 "src": "3825:0:11"
               },
@@ -3612,7 +3612,7 @@
                   {
                     "attributes": {
                       "assignments": [
-                        5632
+                        5677
                       ]
                     },
                     "children": [
@@ -3620,7 +3620,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "a",
-                          "scope": 5693,
+                          "scope": 5738,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -3633,12 +3633,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5631,
+                            "id": 5676,
                             "name": "ElementaryTypeName",
                             "src": "3896:6:11"
                           }
                         ],
-                        "id": 5632,
+                        "id": 5677,
                         "name": "VariableDeclaration",
                         "src": "3896:15:11"
                       },
@@ -3655,19 +3655,19 @@
                           "type": "literal_string \"json(https://op.juhe.cn/flight/df/hfs?dtype=&flightNo=\"",
                           "value": "json(https://op.juhe.cn/flight/df/hfs?dtype=&flightNo="
                         },
-                        "id": 5633,
+                        "id": 5678,
                         "name": "Literal",
                         "src": "3914:56:11"
                       }
                     ],
-                    "id": 5634,
+                    "id": 5679,
                     "name": "VariableDeclarationStatement",
                     "src": "3896:74:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5636
+                        5681
                       ]
                     },
                     "children": [
@@ -3675,7 +3675,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "b",
-                          "scope": 5693,
+                          "scope": 5738,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -3688,12 +3688,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5635,
+                            "id": 5680,
                             "name": "ElementaryTypeName",
                             "src": "3980:6:11"
                           }
                         ],
-                        "id": 5636,
+                        "id": 5681,
                         "name": "VariableDeclaration",
                         "src": "3980:15:11"
                       },
@@ -3710,19 +3710,19 @@
                           "type": "literal_string \"&flightDate=\"",
                           "value": "&flightDate="
                         },
-                        "id": 5637,
+                        "id": 5682,
                         "name": "Literal",
                         "src": "3998:14:11"
                       }
                     ],
-                    "id": 5638,
+                    "id": 5683,
                     "name": "VariableDeclarationStatement",
                     "src": "3980:32:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5640
+                        5685
                       ]
                     },
                     "children": [
@@ -3730,7 +3730,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "end",
-                          "scope": 5693,
+                          "scope": 5738,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -3743,12 +3743,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5639,
+                            "id": 5684,
                             "name": "ElementaryTypeName",
                             "src": "4022:6:11"
                           }
                         ],
-                        "id": 5640,
+                        "id": 5685,
                         "name": "VariableDeclaration",
                         "src": "4022:17:11"
                       },
@@ -3765,19 +3765,19 @@
                           "type": "literal_string \").result[ArrScheduled, ArrActual]\"",
                           "value": ").result[ArrScheduled, ArrActual]"
                         },
-                        "id": 5641,
+                        "id": 5686,
                         "name": "Literal",
                         "src": "4042:35:11"
                       }
                     ],
-                    "id": 5642,
+                    "id": 5687,
                     "name": "VariableDeclarationStatement",
                     "src": "4022:55:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5644
+                        5689
                       ]
                     },
                     "children": [
@@ -3785,7 +3785,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "c",
-                          "scope": 5693,
+                          "scope": 5738,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -3798,12 +3798,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5643,
+                            "id": 5688,
                             "name": "ElementaryTypeName",
                             "src": "4087:6:11"
                           }
                         ],
-                        "id": 5644,
+                        "id": 5689,
                         "name": "VariableDeclaration",
                         "src": "4087:15:11"
                       },
@@ -3839,16 +3839,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                11574,
-                                11596,
-                                11616,
-                                11634
+                                11619,
+                                11641,
+                                11661,
+                                11679
                               ],
-                              "referencedDeclaration": 11616,
+                              "referencedDeclaration": 11661,
                               "type": "function (string memory,string memory,string memory) pure returns (string memory)",
                               "value": "strConcat"
                             },
-                            "id": 5645,
+                            "id": 5690,
                             "name": "Identifier",
                             "src": "4105:9:11"
                           },
@@ -3865,7 +3865,7 @@
                               "type": "literal_string \"&key=\"",
                               "value": "&key="
                             },
-                            "id": 5646,
+                            "id": 5691,
                             "name": "Literal",
                             "src": "4115:7:11"
                           },
@@ -3875,11 +3875,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5408,
+                              "referencedDeclaration": 5453,
                               "type": "string storage ref",
                               "value": "key"
                             },
-                            "id": 5647,
+                            "id": 5692,
                             "name": "Identifier",
                             "src": "4124:3:11"
                           },
@@ -3889,28 +3889,28 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5640,
+                              "referencedDeclaration": 5685,
                               "type": "string memory",
                               "value": "end"
                             },
-                            "id": 5648,
+                            "id": 5693,
                             "name": "Identifier",
                             "src": "4129:3:11"
                           }
                         ],
-                        "id": 5649,
+                        "id": 5694,
                         "name": "FunctionCall",
                         "src": "4105:28:11"
                       }
                     ],
-                    "id": 5650,
+                    "id": 5695,
                     "name": "VariableDeclarationStatement",
                     "src": "4087:46:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5652
+                        5697
                       ]
                     },
                     "children": [
@@ -3918,7 +3918,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "queryStr",
-                          "scope": 5693,
+                          "scope": 5738,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "string memory",
@@ -3931,12 +3931,12 @@
                               "name": "string",
                               "type": "string storage pointer"
                             },
-                            "id": 5651,
+                            "id": 5696,
                             "name": "ElementaryTypeName",
                             "src": "4143:6:11"
                           }
                         ],
-                        "id": 5652,
+                        "id": 5697,
                         "name": "VariableDeclaration",
                         "src": "4143:22:11"
                       },
@@ -3980,16 +3980,16 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                11574,
-                                11596,
-                                11616,
-                                11634
+                                11619,
+                                11641,
+                                11661,
+                                11679
                               ],
-                              "referencedDeclaration": 11574,
+                              "referencedDeclaration": 11619,
                               "type": "function (string memory,string memory,string memory,string memory,string memory) pure returns (string memory)",
                               "value": "strConcat"
                             },
-                            "id": 5653,
+                            "id": 5698,
                             "name": "Identifier",
                             "src": "4168:9:11"
                           },
@@ -3999,11 +3999,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5632,
+                              "referencedDeclaration": 5677,
                               "type": "string memory",
                               "value": "a"
                             },
-                            "id": 5654,
+                            "id": 5699,
                             "name": "Identifier",
                             "src": "4178:1:11"
                           },
@@ -4013,11 +4013,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5626,
+                              "referencedDeclaration": 5671,
                               "type": "string memory",
                               "value": "flightNo"
                             },
-                            "id": 5655,
+                            "id": 5700,
                             "name": "Identifier",
                             "src": "4181:8:11"
                           },
@@ -4027,11 +4027,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5636,
+                              "referencedDeclaration": 5681,
                               "type": "string memory",
                               "value": "b"
                             },
-                            "id": 5656,
+                            "id": 5701,
                             "name": "Identifier",
                             "src": "4191:1:11"
                           },
@@ -4041,11 +4041,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5628,
+                              "referencedDeclaration": 5673,
                               "type": "string memory",
                               "value": "flightDate"
                             },
-                            "id": 5657,
+                            "id": 5702,
                             "name": "Identifier",
                             "src": "4194:10:11"
                           },
@@ -4055,21 +4055,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5644,
+                              "referencedDeclaration": 5689,
                               "type": "string memory",
                               "value": "c"
                             },
-                            "id": 5658,
+                            "id": 5703,
                             "name": "Identifier",
                             "src": "4206:1:11"
                           }
                         ],
-                        "id": 5659,
+                        "id": 5704,
                         "name": "FunctionCall",
                         "src": "4168:40:11"
                       }
                     ],
-                    "id": 5660,
+                    "id": 5705,
                     "name": "VariableDeclarationStatement",
                     "src": "4143:65:11"
                   },
@@ -4092,11 +4092,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5426,
+                              "referencedDeclaration": 5471,
                               "type": "string storage ref",
                               "value": "queryStr1"
                             },
-                            "id": 5661,
+                            "id": 5706,
                             "name": "Identifier",
                             "src": "4218:9:11"
                           },
@@ -4106,28 +4106,28 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5652,
+                              "referencedDeclaration": 5697,
                               "type": "string memory",
                               "value": "queryStr"
                             },
-                            "id": 5662,
+                            "id": 5707,
                             "name": "Identifier",
                             "src": "4230:8:11"
                           }
                         ],
-                        "id": 5663,
+                        "id": 5708,
                         "name": "Assignment",
                         "src": "4218:20:11"
                       }
                     ],
-                    "id": 5664,
+                    "id": 5709,
                     "name": "ExpressionStatement",
                     "src": "4218:20:11"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        5666
+                        5711
                       ]
                     },
                     "children": [
@@ -4135,7 +4135,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "queryId",
-                          "scope": 5693,
+                          "scope": 5738,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "bytes32",
@@ -4148,12 +4148,12 @@
                               "name": "bytes32",
                               "type": "bytes32"
                             },
-                            "id": 5665,
+                            "id": 5710,
                             "name": "ElementaryTypeName",
                             "src": "4248:7:11"
                           }
                         ],
-                        "id": 5666,
+                        "id": 5711,
                         "name": "VariableDeclaration",
                         "src": "4248:15:11"
                       },
@@ -4185,68 +4185,68 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                8001,
-                                8043,
-                                8089,
-                                8133,
-                                8176,
+                                8046,
+                                8088,
+                                8134,
+                                8178,
                                 8221,
-                                8270,
-                                8317,
-                                8364,
-                                8413,
-                                8466,
-                                8517,
-                                8554,
-                                8594,
-                                8637,
-                                8677,
+                                8266,
+                                8315,
+                                8362,
+                                8409,
+                                8458,
+                                8511,
+                                8562,
+                                8599,
+                                8639,
+                                8682,
                                 8722,
-                                8770,
-                                8821,
-                                8869,
-                                8922,
-                                8978,
-                                9037,
-                                9093,
-                                9154,
-                                9218,
-                                9285,
-                                9349,
-                                9418,
-                                9490,
-                                9565,
-                                9637,
-                                9684,
-                                9733,
-                                9786,
-                                9837,
-                                9874,
-                                9914,
-                                9957,
-                                9997,
+                                8767,
+                                8815,
+                                8866,
+                                8914,
+                                8967,
+                                9023,
+                                9082,
+                                9138,
+                                9199,
+                                9263,
+                                9330,
+                                9394,
+                                9463,
+                                9535,
+                                9610,
+                                9682,
+                                9729,
+                                9778,
+                                9831,
+                                9882,
+                                9919,
+                                9959,
+                                10002,
                                 10042,
-                                10090,
-                                10141,
-                                10189,
-                                10242,
-                                10298,
-                                10357,
-                                10413,
-                                10474,
-                                10538,
-                                10605,
-                                10669,
-                                10738,
-                                10810,
-                                10885,
-                                10957
+                                10087,
+                                10135,
+                                10186,
+                                10234,
+                                10287,
+                                10343,
+                                10402,
+                                10458,
+                                10519,
+                                10583,
+                                10650,
+                                10714,
+                                10783,
+                                10855,
+                                10930,
+                                11002
                               ],
-                              "referencedDeclaration": 8001,
+                              "referencedDeclaration": 8046,
                               "type": "function (string memory,string memory) returns (bytes32)",
                               "value": "oraclize_query"
                             },
-                            "id": 5667,
+                            "id": 5712,
                             "name": "Identifier",
                             "src": "4266:14:11"
                           },
@@ -4263,7 +4263,7 @@
                               "type": "literal_string \"URL\"",
                               "value": "URL"
                             },
-                            "id": 5668,
+                            "id": 5713,
                             "name": "Literal",
                             "src": "4281:5:11"
                           },
@@ -4273,21 +4273,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5652,
+                              "referencedDeclaration": 5697,
                               "type": "string memory",
                               "value": "queryStr"
                             },
-                            "id": 5669,
+                            "id": 5714,
                             "name": "Identifier",
                             "src": "4288:8:11"
                           }
                         ],
-                        "id": 5670,
+                        "id": 5715,
                         "name": "FunctionCall",
                         "src": "4266:31:11"
                       }
                     ],
-                    "id": 5671,
+                    "id": 5716,
                     "name": "VariableDeclarationStatement",
                     "src": "4248:49:11"
                   },
@@ -4310,11 +4310,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5424,
+                              "referencedDeclaration": 5469,
                               "type": "bytes32",
                               "value": "queryID"
                             },
-                            "id": 5672,
+                            "id": 5717,
                             "name": "Identifier",
                             "src": "4439:7:11"
                           },
@@ -4324,21 +4324,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5666,
+                              "referencedDeclaration": 5711,
                               "type": "bytes32",
                               "value": "queryId"
                             },
-                            "id": 5673,
+                            "id": 5718,
                             "name": "Identifier",
                             "src": "4449:7:11"
                           }
                         ],
-                        "id": 5674,
+                        "id": 5719,
                         "name": "Assignment",
                         "src": "4439:17:11"
                       }
                     ],
-                    "id": 5675,
+                    "id": 5720,
                     "name": "ExpressionStatement",
                     "src": "4439:17:11"
                   },
@@ -4370,11 +4370,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5442,
+                              "referencedDeclaration": 5487,
                               "type": "function (string memory)",
                               "value": "LogNewOraclizeQuery"
                             },
-                            "id": 5676,
+                            "id": 5721,
                             "name": "Identifier",
                             "src": "4466:19:11"
                           },
@@ -4391,17 +4391,17 @@
                               "type": "literal_string \"Oraclize query was sent, standing by for the answer..\"",
                               "value": "Oraclize query was sent, standing by for the answer.."
                             },
-                            "id": 5677,
+                            "id": 5722,
                             "name": "Literal",
                             "src": "4486:55:11"
                           }
                         ],
-                        "id": 5678,
+                        "id": 5723,
                         "name": "FunctionCall",
                         "src": "4466:76:11"
                       }
                     ],
-                    "id": 5679,
+                    "id": 5724,
                     "name": "ExpressionStatement",
                     "src": "4466:76:11"
                   },
@@ -4434,11 +4434,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5430,
+                                  "referencedDeclaration": 5475,
                                   "type": "mapping(bytes32 => struct DelayOracle.Record storage ref)",
                                   "value": "queryRecords"
                                 },
-                                "id": 5680,
+                                "id": 5725,
                                 "name": "Identifier",
                                 "src": "4552:12:11"
                               },
@@ -4448,16 +4448,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5666,
+                                  "referencedDeclaration": 5711,
                                   "type": "bytes32",
                                   "value": "queryId"
                                 },
-                                "id": 5681,
+                                "id": 5726,
                                 "name": "Identifier",
                                 "src": "4565:7:11"
                               }
                             ],
-                            "id": 5682,
+                            "id": 5727,
                             "name": "IndexAccess",
                             "src": "4552:21:11"
                           },
@@ -4483,11 +4483,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5422,
+                                  "referencedDeclaration": 5467,
                                   "type": "type(struct DelayOracle.Record storage pointer)",
                                   "value": "Record"
                                 },
-                                "id": 5683,
+                                "id": 5728,
                                 "name": "Identifier",
                                 "src": "4576:6:11"
                               },
@@ -4519,16 +4519,16 @@
                                         }
                                       ],
                                       "overloadedDeclarations": [
-                                        11574,
-                                        11596,
-                                        11616,
-                                        11634
+                                        11619,
+                                        11641,
+                                        11661,
+                                        11679
                                       ],
-                                      "referencedDeclaration": 11634,
+                                      "referencedDeclaration": 11679,
                                       "type": "function (string memory,string memory) pure returns (string memory)",
                                       "value": "strConcat"
                                     },
-                                    "id": 5684,
+                                    "id": 5729,
                                     "name": "Identifier",
                                     "src": "4592:9:11"
                                   },
@@ -4538,11 +4538,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5626,
+                                      "referencedDeclaration": 5671,
                                       "type": "string memory",
                                       "value": "flightNo"
                                     },
-                                    "id": 5685,
+                                    "id": 5730,
                                     "name": "Identifier",
                                     "src": "4602:8:11"
                                   },
@@ -4552,16 +4552,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5628,
+                                      "referencedDeclaration": 5673,
                                       "type": "string memory",
                                       "value": "flightDate"
                                     },
-                                    "id": 5686,
+                                    "id": 5731,
                                     "name": "Identifier",
                                     "src": "4612:10:11"
                                   }
                                 ],
-                                "id": 5687,
+                                "id": 5732,
                                 "name": "FunctionCall",
                                 "src": "4592:31:11"
                               },
@@ -4578,42 +4578,42 @@
                                   "type": "bool",
                                   "value": "true"
                                 },
-                                "id": 5688,
+                                "id": 5733,
                                 "name": "Literal",
                                 "src": "4634:4:11"
                               }
                             ],
-                            "id": 5689,
+                            "id": 5734,
                             "name": "FunctionCall",
                             "src": "4576:64:11"
                           }
                         ],
-                        "id": 5690,
+                        "id": 5735,
                         "name": "Assignment",
                         "src": "4552:88:11"
                       }
                     ],
-                    "id": 5691,
+                    "id": 5736,
                     "name": "ExpressionStatement",
                     "src": "4552:88:11"
                   }
                 ],
-                "id": 5692,
+                "id": 5737,
                 "name": "Block",
                 "src": "3825:822:11"
               }
             ],
-            "id": 5693,
+            "id": 5738,
             "name": "FunctionDefinition",
             "src": "3759:888:11"
           }
         ],
-        "id": 5694,
+        "id": 5739,
         "name": "ContractDefinition",
         "src": "230:4419:11"
       }
     ],
-    "id": 5695,
+    "id": 5740,
     "name": "SourceUnit",
     "src": "0:4649:11"
   },
@@ -4623,5 +4623,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-04-21T02:24:13.810Z"
+  "updatedAt": "2018-05-02T01:56:26.896Z"
 }

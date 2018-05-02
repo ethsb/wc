@@ -329,7 +329,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 15182,
+          "SourceUnit": 15227,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/node_modules/zeppelin-solidity/contracts/ownership/Ownable.sol",
           "file": "../node_modules/zeppelin-solidity/contracts/ownership/Ownable.sol",
           "scope": 1072,
@@ -344,7 +344,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 15126,
+          "SourceUnit": 15171,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/node_modules/zeppelin-solidity/contracts/math/SafeMath.sol",
           "file": "../node_modules/zeppelin-solidity/contracts/math/SafeMath.sol",
           "scope": 1072,
@@ -359,7 +359,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6607,
+          "SourceUnit": 6652,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/Stoppable.sol",
           "file": "./common/Stoppable.sol",
           "scope": 1072,
@@ -374,7 +374,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6486,
+          "SourceUnit": 6531,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/HbStorage.sol",
           "file": "./common/HbStorage.sol",
           "scope": 1072,
@@ -389,7 +389,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6539,
+          "SourceUnit": 6584,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/KnotToken.sol",
           "file": "./common/KnotToken.sol",
           "scope": 1072,
@@ -420,16 +420,16 @@
       {
         "attributes": {
           "contractDependencies": [
-            6606,
-            15181
+            6651,
+            15226
           ],
           "contractKind": "contract",
           "documentation": "@title group smart contract. ",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             1071,
-            15181,
-            6606
+            15226,
+            6651
           ],
           "name": "FlightDelayService",
           "scope": 1072
@@ -446,7 +446,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Stoppable",
-                  "referencedDeclaration": 6606,
+                  "referencedDeclaration": 6651,
                   "type": "contract Stoppable"
                 },
                 "id": 423,
@@ -469,7 +469,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Ownable",
-                  "referencedDeclaration": 15181,
+                  "referencedDeclaration": 15226,
                   "type": "contract Ownable"
                 },
                 "id": 425,
@@ -487,7 +487,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
-                  "referencedDeclaration": 15125,
+                  "referencedDeclaration": 15170,
                   "type": "library SafeMath"
                 },
                 "id": 427,
@@ -524,7 +524,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "HbStorage",
-                  "referencedDeclaration": 6485,
+                  "referencedDeclaration": 6530,
                   "type": "contract HbStorage"
                 },
                 "id": 430,
@@ -552,7 +552,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "KnotToken",
-                  "referencedDeclaration": 6538,
+                  "referencedDeclaration": 6583,
                   "type": "contract KnotToken"
                 },
                 "id": 432,
@@ -837,7 +837,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 15155,
+                      "referencedDeclaration": 15200,
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
@@ -1142,7 +1142,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6606,
+                      "referencedDeclaration": 6651,
                       "type": "type(contract Stoppable)",
                       "value": "Stoppable"
                     },
@@ -1168,7 +1168,7 @@
                           "overloadedDeclarations": [
                             null
                           ],
-                          "referencedDeclaration": 15610,
+                          "referencedDeclaration": 15655,
                           "type": "msg",
                           "value": "msg"
                         },
@@ -1241,7 +1241,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6485,
+                                  "referencedDeclaration": 6530,
                                   "type": "type(contract HbStorage)",
                                   "value": "HbStorage"
                                 },
@@ -1331,7 +1331,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6538,
+                                  "referencedDeclaration": 6583,
                                   "type": "type(contract KnotToken)",
                                   "value": "KnotToken"
                                 },
@@ -1424,7 +1424,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -1459,7 +1459,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -1469,7 +1469,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -1564,7 +1564,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -1599,7 +1599,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -1609,7 +1609,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -1720,7 +1720,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -1755,7 +1755,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -1765,7 +1765,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -1860,7 +1860,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -1895,7 +1895,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -1905,7 +1905,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2016,7 +2016,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -2051,7 +2051,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -2061,7 +2061,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2156,7 +2156,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -2191,7 +2191,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -2201,7 +2201,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2312,7 +2312,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -2347,7 +2347,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -2357,7 +2357,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2452,7 +2452,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -2487,7 +2487,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -2497,7 +2497,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2608,7 +2608,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -2643,7 +2643,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -2653,7 +2653,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2748,7 +2748,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -2783,7 +2783,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -2793,7 +2793,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -2892,7 +2892,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "HbStorage.DelayStatus",
-                          "referencedDeclaration": 5748,
+                          "referencedDeclaration": 5793,
                           "type": "enum HbStorage.DelayStatus"
                         },
                         "id": 588,
@@ -2953,7 +2953,7 @@
                         "attributes": {
                           "argumentTypes": null,
                           "commonType": {
-                            "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                            "typeIdentifier": "t_enum$_DelayStatus_$5793",
                             "typeString": "enum HbStorage.DelayStatus"
                           },
                           "isConstant": false,
@@ -2998,7 +2998,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "DelayStatus",
-                                  "referencedDeclaration": 5748,
+                                  "referencedDeclaration": 5793,
                                   "type": "type(enum HbStorage.DelayStatus)"
                                 },
                                 "children": [
@@ -3008,7 +3008,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -3079,7 +3079,7 @@
                         "attributes": {
                           "argumentTypes": null,
                           "commonType": {
-                            "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                            "typeIdentifier": "t_enum$_DelayStatus_$5793",
                             "typeString": "enum HbStorage.DelayStatus"
                           },
                           "isConstant": false,
@@ -3124,7 +3124,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "DelayStatus",
-                                  "referencedDeclaration": 5748,
+                                  "referencedDeclaration": 5793,
                                   "type": "type(enum HbStorage.DelayStatus)"
                                 },
                                 "children": [
@@ -3134,7 +3134,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -3242,7 +3242,7 @@
                         "attributes": {
                           "argumentTypes": null,
                           "commonType": {
-                            "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                            "typeIdentifier": "t_enum$_DelayStatus_$5793",
                             "typeString": "enum HbStorage.DelayStatus"
                           },
                           "isConstant": false,
@@ -3287,7 +3287,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "DelayStatus",
-                                  "referencedDeclaration": 5748,
+                                  "referencedDeclaration": 5793,
                                   "type": "type(enum HbStorage.DelayStatus)"
                                 },
                                 "children": [
@@ -3297,7 +3297,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -3405,7 +3405,7 @@
                         "attributes": {
                           "argumentTypes": null,
                           "commonType": {
-                            "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                            "typeIdentifier": "t_enum$_DelayStatus_$5793",
                             "typeString": "enum HbStorage.DelayStatus"
                           },
                           "isConstant": false,
@@ -3450,7 +3450,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "DelayStatus",
-                                  "referencedDeclaration": 5748,
+                                  "referencedDeclaration": 5793,
                                   "type": "type(enum HbStorage.DelayStatus)"
                                 },
                                 "children": [
@@ -3460,7 +3460,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -3568,7 +3568,7 @@
                         "attributes": {
                           "argumentTypes": null,
                           "commonType": {
-                            "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                            "typeIdentifier": "t_enum$_DelayStatus_$5793",
                             "typeString": "enum HbStorage.DelayStatus"
                           },
                           "isConstant": false,
@@ -3613,7 +3613,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "DelayStatus",
-                                  "referencedDeclaration": 5748,
+                                  "referencedDeclaration": 5793,
                                   "type": "type(enum HbStorage.DelayStatus)"
                                 },
                                 "children": [
@@ -3623,7 +3623,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -3865,7 +3865,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "isMemberInSF",
-                                  "referencedDeclaration": 5933,
+                                  "referencedDeclaration": 5978,
                                   "type": "function (bytes32,address) view external returns (bool)"
                                 },
                                 "children": [
@@ -3920,7 +3920,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15610,
+                                      "referencedDeclaration": 15655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4040,7 +4040,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "returnSFInfo",
-                              "referencedDeclaration": 6224,
+                              "referencedDeclaration": 6269,
                               "type": "function (bytes32) view external returns (inaccessible dynamic type,inaccessible dynamic type,enum HbStorage.SFStatus,uint256,enum HbStorage.DelayStatus,bool,uint256)"
                             },
                             "children": [
@@ -4111,7 +4111,7 @@
                             "attributes": {
                               "argumentTypes": null,
                               "commonType": {
-                                "typeIdentifier": "t_enum$_SFStatus_$5742",
+                                "typeIdentifier": "t_enum$_SFStatus_$5787",
                                 "typeString": "enum HbStorage.SFStatus"
                               },
                               "isConstant": false,
@@ -4156,7 +4156,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "SFStatus",
-                                      "referencedDeclaration": 5742,
+                                      "referencedDeclaration": 5787,
                                       "type": "type(enum HbStorage.SFStatus)"
                                     },
                                     "children": [
@@ -4166,7 +4166,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 6485,
+                                          "referencedDeclaration": 6530,
                                           "type": "type(contract HbStorage)",
                                           "value": "HbStorage"
                                         },
@@ -4193,7 +4193,7 @@
                             "attributes": {
                               "argumentTypes": null,
                               "commonType": {
-                                "typeIdentifier": "t_enum$_SFStatus_$5742",
+                                "typeIdentifier": "t_enum$_SFStatus_$5787",
                                 "typeString": "enum HbStorage.SFStatus"
                               },
                               "isConstant": false,
@@ -4238,7 +4238,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "SFStatus",
-                                      "referencedDeclaration": 5742,
+                                      "referencedDeclaration": 5787,
                                       "type": "type(enum HbStorage.SFStatus)"
                                     },
                                     "children": [
@@ -4248,7 +4248,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 6485,
+                                          "referencedDeclaration": 6530,
                                           "type": "type(contract HbStorage)",
                                           "value": "HbStorage"
                                         },
@@ -4375,7 +4375,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "voteInfos",
-                              "referencedDeclaration": 5837,
+                              "referencedDeclaration": 5882,
                               "type": "function (bytes32) view external returns (uint256,uint256,uint256,uint256,uint256,uint256,bool,address,bool)"
                             },
                             "children": [
@@ -4574,7 +4574,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "HbStorage.DelayStatus",
-                          "referencedDeclaration": 5748,
+                          "referencedDeclaration": 5793,
                           "type": "enum HbStorage.DelayStatus"
                         },
                         "id": 704,
@@ -4615,7 +4615,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6553,
+                      "referencedDeclaration": 6598,
                       "type": "modifier ()",
                       "value": "stopInEmergency"
                     },
@@ -4658,7 +4658,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -4791,7 +4791,7 @@
                                   "typeString": "bytes32"
                                 },
                                 {
-                                  "typeIdentifier": "t_enum$_SFStatus_$5742",
+                                  "typeIdentifier": "t_enum$_SFStatus_$5787",
                                   "typeString": "enum HbStorage.SFStatus"
                                 }
                               ],
@@ -4800,7 +4800,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "changeSFStatus",
-                              "referencedDeclaration": 6249,
+                              "referencedDeclaration": 6294,
                               "type": "function (bytes32,enum HbStorage.SFStatus) external"
                             },
                             "children": [
@@ -4857,7 +4857,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "SFStatus",
-                                  "referencedDeclaration": 5742,
+                                  "referencedDeclaration": 5787,
                                   "type": "type(enum HbStorage.SFStatus)"
                                 },
                                 "children": [
@@ -4867,7 +4867,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -4920,7 +4920,7 @@
                                   "typeString": "bytes32"
                                 },
                                 {
-                                  "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                  "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                   "typeString": "enum HbStorage.DelayStatus"
                                 }
                               ],
@@ -4929,7 +4929,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "updateVote",
-                              "referencedDeclaration": 6472,
+                              "referencedDeclaration": 6517,
                               "type": "function (bytes32,enum HbStorage.DelayStatus) external"
                             },
                             "children": [
@@ -5051,7 +5051,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "currentVote",
-                              "referencedDeclaration": 5839,
+                              "referencedDeclaration": 5884,
                               "type": "function () view external returns (bytes32)"
                             },
                             "children": [
@@ -5144,7 +5144,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "voteInfos",
-                              "referencedDeclaration": 5837,
+                              "referencedDeclaration": 5882,
                               "type": "function (bytes32) view external returns (uint256,uint256,uint256,uint256,uint256,uint256,bool,address,bool)"
                             },
                             "children": [
@@ -5259,7 +5259,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "setCurrentVote",
-                                      "referencedDeclaration": 6484,
+                                      "referencedDeclaration": 6529,
                                       "type": "function (bytes32) external"
                                     },
                                     "children": [
@@ -5361,7 +5361,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15602,
+                                  "referencedDeclaration": 15647,
                                   "type": "block",
                                   "value": "block"
                                 },
@@ -5527,7 +5527,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "isMemberInSF",
-                                  "referencedDeclaration": 5933,
+                                  "referencedDeclaration": 5978,
                                   "type": "function (bytes32,address) view external returns (bool)"
                                 },
                                 "children": [
@@ -5582,7 +5582,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15610,
+                                      "referencedDeclaration": 15655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5702,7 +5702,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "returnSFInfo",
-                              "referencedDeclaration": 6224,
+                              "referencedDeclaration": 6269,
                               "type": "function (bytes32) view external returns (inaccessible dynamic type,inaccessible dynamic type,enum HbStorage.SFStatus,uint256,enum HbStorage.DelayStatus,bool,uint256)"
                             },
                             "children": [
@@ -5758,7 +5758,7 @@
                         "attributes": {
                           "argumentTypes": null,
                           "commonType": {
-                            "typeIdentifier": "t_enum$_SFStatus_$5742",
+                            "typeIdentifier": "t_enum$_SFStatus_$5787",
                             "typeString": "enum HbStorage.SFStatus"
                           },
                           "isConstant": false,
@@ -5803,7 +5803,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "SFStatus",
-                                  "referencedDeclaration": 5742,
+                                  "referencedDeclaration": 5787,
                                   "type": "type(enum HbStorage.SFStatus)"
                                 },
                                 "children": [
@@ -5813,7 +5813,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -5951,7 +5951,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -6115,7 +6115,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6553,
+                      "referencedDeclaration": 6598,
                       "type": "modifier ()",
                       "value": "stopInEmergency"
                     },
@@ -6158,7 +6158,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -6394,7 +6394,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "voteInfos",
-                              "referencedDeclaration": 5837,
+                              "referencedDeclaration": 5882,
                               "type": "function (bytes32) view external returns (uint256,uint256,uint256,uint256,uint256,uint256,bool,address,bool)"
                             },
                             "children": [
@@ -6464,7 +6464,7 @@
                             "attributes": {
                               "contractScope": null,
                               "name": "HbStorage.DelayStatus",
-                              "referencedDeclaration": 5748,
+                              "referencedDeclaration": 5793,
                               "type": "enum HbStorage.DelayStatus"
                             },
                             "id": 835,
@@ -6496,7 +6496,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "DelayStatus",
-                              "referencedDeclaration": 5748,
+                              "referencedDeclaration": 5793,
                               "type": "type(enum HbStorage.DelayStatus)"
                             },
                             "children": [
@@ -6506,7 +6506,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6485,
+                                  "referencedDeclaration": 6530,
                                   "type": "type(contract HbStorage)",
                                   "value": "HbStorage"
                                 },
@@ -6631,7 +6631,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -6641,7 +6641,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -6781,7 +6781,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -6791,7 +6791,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -6931,7 +6931,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -6941,7 +6941,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -7081,7 +7081,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "DelayStatus",
-                                          "referencedDeclaration": 5748,
+                                          "referencedDeclaration": 5793,
                                           "type": "type(enum HbStorage.DelayStatus)"
                                         },
                                         "children": [
@@ -7091,7 +7091,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 6485,
+                                              "referencedDeclaration": 6530,
                                               "type": "type(contract HbStorage)",
                                               "value": "HbStorage"
                                             },
@@ -7217,7 +7217,7 @@
                                     "attributes": {
                                       "argumentTypes": [
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -7379,7 +7379,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 15610,
+                                              "referencedDeclaration": 15655,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -7425,7 +7425,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "add",
-                                          "referencedDeclaration": 15124,
+                                          "referencedDeclaration": 15169,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -7471,7 +7471,7 @@
                                                       "overloadedDeclarations": [
                                                         null
                                                       ],
-                                                      "referencedDeclaration": 15610,
+                                                      "referencedDeclaration": 15655,
                                                       "type": "msg",
                                                       "value": "msg"
                                                     },
@@ -7611,7 +7611,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 15610,
+                                              "referencedDeclaration": 15655,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -7724,7 +7724,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6553,
+                      "referencedDeclaration": 6598,
                       "type": "modifier ()",
                       "value": "stopInEmergency"
                     },
@@ -7814,7 +7814,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -7865,7 +7865,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -7971,7 +7971,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transfer",
-                              "referencedDeclaration": 15264,
+                              "referencedDeclaration": 15309,
                               "type": "function (address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -8012,7 +8012,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -8101,7 +8101,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 15610,
+                                              "referencedDeclaration": 15655,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -8257,7 +8257,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15610,
+                              "referencedDeclaration": 15655,
                               "type": "msg",
                               "value": "msg"
                             },
@@ -8389,7 +8389,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -8486,7 +8486,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -8589,7 +8589,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transfer",
-                              "referencedDeclaration": 15264,
+                              "referencedDeclaration": 15309,
                               "type": "function (address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -8630,7 +8630,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -8908,7 +8908,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "allowance",
-                                  "referencedDeclaration": 15496,
+                                  "referencedDeclaration": 15541,
                                   "type": "function (address,address) view external returns (uint256)"
                                 },
                                 "children": [
@@ -8949,7 +8949,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15610,
+                                      "referencedDeclaration": 15655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -8968,7 +8968,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15649,
+                                  "referencedDeclaration": 15694,
                                   "type": "contract FlightDelayService",
                                   "value": "this"
                                 },
@@ -9166,7 +9166,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -9335,7 +9335,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 15080,
+                              "referencedDeclaration": 15125,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -9423,7 +9423,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "transferFrom",
-                              "referencedDeclaration": 15452,
+                              "referencedDeclaration": 15497,
                               "type": "function (address,address,uint256) external returns (bool)"
                             },
                             "children": [
@@ -9464,7 +9464,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -9483,7 +9483,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15649,
+                              "referencedDeclaration": 15694,
                               "type": "contract FlightDelayService",
                               "value": "this"
                             },
@@ -9567,7 +9567,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "sub",
-                                          "referencedDeclaration": 15100,
+                                          "referencedDeclaration": 15145,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -9674,7 +9674,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 15610,
+                                              "referencedDeclaration": 15655,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -9720,7 +9720,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "add",
-                                          "referencedDeclaration": 15124,
+                                          "referencedDeclaration": 15169,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -9766,7 +9766,7 @@
                                                       "overloadedDeclarations": [
                                                         null
                                                       ],
-                                                      "referencedDeclaration": 15610,
+                                                      "referencedDeclaration": 15655,
                                                       "type": "msg",
                                                       "value": "msg"
                                                     },
@@ -9854,5 +9854,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-04-21T02:24:13.797Z"
+  "updatedAt": "2018-05-02T01:56:26.882Z"
 }

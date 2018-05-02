@@ -359,7 +359,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 15182,
+          "SourceUnit": 15227,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/node_modules/zeppelin-solidity/contracts/ownership/Ownable.sol",
           "file": "../node_modules/zeppelin-solidity/contracts/ownership/Ownable.sol",
           "scope": 415,
@@ -374,7 +374,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 15126,
+          "SourceUnit": 15171,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/node_modules/zeppelin-solidity/contracts/math/SafeMath.sol",
           "file": "../node_modules/zeppelin-solidity/contracts/math/SafeMath.sol",
           "scope": 415,
@@ -389,7 +389,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 15028,
+          "SourceUnit": 15073,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/installed_contracts/solidity-stringutils/strings.sol",
           "file": "../installed_contracts/solidity-stringutils/strings.sol",
           "scope": 415,
@@ -404,7 +404,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6607,
+          "SourceUnit": 6652,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/Stoppable.sol",
           "file": "./common/Stoppable.sol",
           "scope": 415,
@@ -419,7 +419,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6486,
+          "SourceUnit": 6531,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/HbStorage.sol",
           "file": "./common/HbStorage.sol",
           "scope": 415,
@@ -434,7 +434,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6539,
+          "SourceUnit": 6584,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/KnotToken.sol",
           "file": "./common/KnotToken.sol",
           "scope": 415,
@@ -449,7 +449,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7519,
+          "SourceUnit": 7564,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/Utility.sol",
           "file": "./common/Utility.sol",
           "scope": 415,
@@ -465,16 +465,16 @@
       {
         "attributes": {
           "contractDependencies": [
-            6606,
-            15181
+            6651,
+            15226
           ],
           "contractKind": "contract",
           "documentation": "@title group smart contract. ",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             414,
-            6606,
-            15181
+            6651,
+            15226
           ],
           "name": "FlightDelay",
           "scope": 415
@@ -491,7 +491,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Ownable",
-                  "referencedDeclaration": 15181,
+                  "referencedDeclaration": 15226,
                   "type": "contract Ownable"
                 },
                 "id": 27,
@@ -514,7 +514,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Stoppable",
-                  "referencedDeclaration": 6606,
+                  "referencedDeclaration": 6651,
                   "type": "contract Stoppable"
                 },
                 "id": 29,
@@ -535,7 +535,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "strings",
-                  "referencedDeclaration": 15027,
+                  "referencedDeclaration": 15072,
                   "type": "library strings"
                 },
                 "id": 31,
@@ -553,7 +553,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
-                  "referencedDeclaration": 15125,
+                  "referencedDeclaration": 15170,
                   "type": "library SafeMath"
                 },
                 "id": 33,
@@ -590,7 +590,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "HbStorage",
-                  "referencedDeclaration": 6485,
+                  "referencedDeclaration": 6530,
                   "type": "contract HbStorage"
                 },
                 "id": 36,
@@ -618,7 +618,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "KnotToken",
-                  "referencedDeclaration": 6538,
+                  "referencedDeclaration": 6583,
                   "type": "contract KnotToken"
                 },
                 "id": 38,
@@ -930,7 +930,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6606,
+                      "referencedDeclaration": 6651,
                       "type": "type(contract Stoppable)",
                       "value": "Stoppable"
                     },
@@ -956,7 +956,7 @@
                           "overloadedDeclarations": [
                             null
                           ],
-                          "referencedDeclaration": 15610,
+                          "referencedDeclaration": 15655,
                           "type": "msg",
                           "value": "msg"
                         },
@@ -1029,7 +1029,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6485,
+                                  "referencedDeclaration": 6530,
                                   "type": "type(contract HbStorage)",
                                   "value": "HbStorage"
                                 },
@@ -1119,7 +1119,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6538,
+                                  "referencedDeclaration": 6583,
                                   "type": "type(contract KnotToken)",
                                   "value": "KnotToken"
                                 },
@@ -1236,7 +1236,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 15155,
+                      "referencedDeclaration": 15200,
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
@@ -1382,7 +1382,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 15155,
+                      "referencedDeclaration": 15200,
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
@@ -1795,7 +1795,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "getSFCount",
-                              "referencedDeclaration": 5946,
+                              "referencedDeclaration": 5991,
                               "type": "function (bytes32) view external returns (uint256)"
                             },
                             "children": [
@@ -1948,7 +1948,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6553,
+                      "referencedDeclaration": 6598,
                       "type": "modifier ()",
                       "value": "stopInEmergency"
                     },
@@ -1996,7 +1996,7 @@
                                   "typeString": "bytes32"
                                 },
                                 {
-                                  "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                  "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                   "typeString": "enum HbStorage.DelayStatus"
                                 }
                               ],
@@ -2115,7 +2115,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "DelayStatus",
-                                  "referencedDeclaration": 5748,
+                                  "referencedDeclaration": 5793,
                                   "type": "type(enum HbStorage.DelayStatus)"
                                 },
                                 "children": [
@@ -2125,7 +2125,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 6485,
+                                      "referencedDeclaration": 6530,
                                       "type": "type(contract HbStorage)",
                                       "value": "HbStorage"
                                     },
@@ -2344,7 +2344,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "checkDateFomat",
-                                  "referencedDeclaration": 6874,
+                                  "referencedDeclaration": 6919,
                                   "type": "function (string memory) returns (bool)"
                                 },
                                 "children": [
@@ -2354,7 +2354,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7518,
+                                      "referencedDeclaration": 7563,
                                       "type": "type(library Utility)",
                                       "value": "Utility"
                                     },
@@ -2479,7 +2479,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "checkDate",
-                                  "referencedDeclaration": 7187,
+                                  "referencedDeclaration": 7232,
                                   "type": "function (string memory,uint256) returns (bool)"
                                 },
                                 "children": [
@@ -2489,7 +2489,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7518,
+                                      "referencedDeclaration": 7563,
                                       "type": "type(library Utility)",
                                       "value": "Utility"
                                     },
@@ -2650,7 +2650,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "getSFCount",
-                                          "referencedDeclaration": 5946,
+                                          "referencedDeclaration": 5991,
                                           "type": "function (bytes32) view external returns (uint256)"
                                         },
                                         "children": [
@@ -2805,7 +2805,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "isOpening",
-                                  "referencedDeclaration": 6100,
+                                  "referencedDeclaration": 6145,
                                   "type": "function (bytes32) view external returns (bool)"
                                 },
                                 "children": [
@@ -2956,7 +2956,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "isMemberInSF",
-                              "referencedDeclaration": 5933,
+                              "referencedDeclaration": 5978,
                               "type": "function (bytes32,address) view external returns (bool)"
                             },
                             "children": [
@@ -3011,7 +3011,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -3140,7 +3140,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "balanceOf",
-                                  "referencedDeclaration": 15276,
+                                  "referencedDeclaration": 15321,
                                   "type": "function (address) view external returns (uint256)"
                                 },
                                 "children": [
@@ -3181,7 +3181,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15610,
+                                      "referencedDeclaration": 15655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -3403,7 +3403,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "HbStorage.DelayStatus",
-                          "referencedDeclaration": 5748,
+                          "referencedDeclaration": 5793,
                           "type": "enum HbStorage.DelayStatus"
                         },
                         "id": 241,
@@ -3444,7 +3444,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6553,
+                      "referencedDeclaration": 6598,
                       "type": "modifier ()",
                       "value": "stopInEmergency"
                     },
@@ -3518,7 +3518,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15604,
+                              "referencedDeclaration": 15649,
                               "type": "function () pure returns (bytes32)",
                               "value": "keccak256"
                             },
@@ -3558,7 +3558,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "strConcat",
-                                  "referencedDeclaration": 7485,
+                                  "referencedDeclaration": 7530,
                                   "type": "function (string memory,string memory) returns (string memory)"
                                 },
                                 "children": [
@@ -3568,7 +3568,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7518,
+                                      "referencedDeclaration": 7563,
                                       "type": "type(library Utility)",
                                       "value": "Utility"
                                     },
@@ -3832,7 +3832,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -4004,7 +4004,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 15613,
+                              "referencedDeclaration": 15658,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -4048,7 +4048,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "transferFrom",
-                                  "referencedDeclaration": 15452,
+                                  "referencedDeclaration": 15497,
                                   "type": "function (address,address,uint256) external returns (bool)"
                                 },
                                 "children": [
@@ -4089,7 +4089,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 15610,
+                                      "referencedDeclaration": 15655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -4108,7 +4108,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15647,
+                                  "referencedDeclaration": 15692,
                                   "type": "contract FlightDelay",
                                   "value": "this"
                                 },
@@ -4186,7 +4186,7 @@
                                   "typeString": "bytes32"
                                 },
                                 {
-                                  "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                  "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                   "typeString": "enum HbStorage.DelayStatus"
                                 },
                                 {
@@ -4199,7 +4199,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "addMemberToSF",
-                              "referencedDeclaration": 6062,
+                              "referencedDeclaration": 6107,
                               "type": "function (bytes32,string memory,string memory,address,bytes32,enum HbStorage.DelayStatus,uint256) external"
                             },
                             "children": [
@@ -4282,7 +4282,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4469,7 +4469,7 @@
                                           "typeString": "bytes32"
                                         },
                                         {
-                                          "typeIdentifier": "t_enum$_DelayStatus_$5748",
+                                          "typeIdentifier": "t_enum$_DelayStatus_$5793",
                                           "typeString": "enum HbStorage.DelayStatus"
                                         }
                                       ],
@@ -4478,7 +4478,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "updateVote",
-                                      "referencedDeclaration": 6472,
+                                      "referencedDeclaration": 6517,
                                       "type": "function (bytes32,enum HbStorage.DelayStatus) external"
                                     },
                                     "children": [
@@ -4633,7 +4633,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "endVote",
-                                              "referencedDeclaration": 6284,
+                                              "referencedDeclaration": 6329,
                                               "type": "function (bytes32,address) external"
                                             },
                                             "children": [
@@ -4688,7 +4688,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 15610,
+                                                  "referencedDeclaration": 15655,
                                                   "type": "msg",
                                                   "value": "msg"
                                                 },
@@ -4776,7 +4776,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15602,
+                                  "referencedDeclaration": 15647,
                                   "type": "block",
                                   "value": "block"
                                 },
@@ -4847,7 +4847,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "getSFCount",
-                                  "referencedDeclaration": 5946,
+                                  "referencedDeclaration": 5991,
                                   "type": "function (bytes32) view external returns (uint256)"
                                 },
                                 "children": [
@@ -4940,7 +4940,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "setClose",
-                                      "referencedDeclaration": 6078,
+                                      "referencedDeclaration": 6123,
                                       "type": "function (bytes32) external"
                                     },
                                     "children": [
@@ -5087,7 +5087,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 15610,
+                                  "referencedDeclaration": 15655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -5349,7 +5349,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "voteInfos",
-                              "referencedDeclaration": 5837,
+                              "referencedDeclaration": 5882,
                               "type": "function (bytes32) view external returns (uint256,uint256,uint256,uint256,uint256,uint256,bool,address,bool)"
                             },
                             "children": [
@@ -5457,7 +5457,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "add",
-                              "referencedDeclaration": 15124,
+                              "referencedDeclaration": 15169,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -5489,7 +5489,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "add",
-                                      "referencedDeclaration": 15124,
+                                      "referencedDeclaration": 15169,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -5521,7 +5521,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "add",
-                                              "referencedDeclaration": 15124,
+                                              "referencedDeclaration": 15169,
                                               "type": "function (uint256,uint256) pure returns (uint256)"
                                             },
                                             "children": [
@@ -5553,7 +5553,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "add",
-                                                      "referencedDeclaration": 15124,
+                                                      "referencedDeclaration": 15169,
                                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                                     },
                                                     "children": [
@@ -5732,7 +5732,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "sub",
-                                      "referencedDeclaration": 15100,
+                                      "referencedDeclaration": 15145,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -5754,7 +5754,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 15602,
+                                              "referencedDeclaration": 15647,
                                               "type": "block",
                                               "value": "block"
                                             },
@@ -5819,7 +5819,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "voteEndInterval",
-                                      "referencedDeclaration": 5710,
+                                      "referencedDeclaration": 5755,
                                       "type": "function () view external returns (uint256)"
                                     },
                                     "children": [
@@ -5909,7 +5909,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "voteEndThreshold",
-                                      "referencedDeclaration": 5713,
+                                      "referencedDeclaration": 5758,
                                       "type": "function () view external returns (uint256)"
                                     },
                                     "children": [
@@ -6046,5 +6046,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-04-21T02:24:13.796Z"
+  "updatedAt": "2018-05-02T01:56:26.881Z"
 }
