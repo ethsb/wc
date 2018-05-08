@@ -13,8 +13,8 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b60405160208060ac83398101604052808051906020019091905050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505060358060776000396000f3006060604052600080fd00a165627a7a7230582058b986fc8f42e916d772040894ff006a7889053f63e69f92938ff5714d178bbc0029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582058b986fc8f42e916d772040894ff006a7889053f63e69f92938ff5714d178bbc0029",
+  "bytecode": "0x60606040523415600e57600080fd5b60405160208060ac83398101604052808051906020019091905050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505060358060776000396000f3006060604052600080fd00a165627a7a7230582083c841c1df4d96bf29b12e24feba53c21f94619aa912ed19ec5c317734cbf91f0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a7230582083c841c1df4d96bf29b12e24feba53c21f94619aa912ed19ec5c317734cbf91f0029",
   "sourceMap": "60:148:0:-;;;108:98;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;186:12;164:9;;:35;;;;;;;;;;;;;;;;;;108:98;60:148;;;;;;",
   "deployedSourceMap": "60:148:0:-;;;;;",
   "source": "pragma solidity ^0.4.18;\n\nimport './common/KnotToken.sol';\n\ncontract Account {\n    KnotToken knotToken;\n    function Account(address tokenAddress) public {\n        knotToken = KnotToken(tokenAddress);\n    }\n}",
@@ -44,7 +44,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6584,
+          "SourceUnit": 6644,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/KnotToken.sol",
           "file": "./common/KnotToken.sol",
           "scope": 18,
@@ -91,7 +91,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "KnotToken",
-                  "referencedDeclaration": 6583,
+                  "referencedDeclaration": 6643,
                   "type": "contract KnotToken"
                 },
                 "id": 3,
@@ -218,7 +218,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6583,
+                                  "referencedDeclaration": 6643,
                                   "type": "type(contract KnotToken)",
                                   "value": "KnotToken"
                                 },
@@ -281,5 +281,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-05-02T01:56:26.881Z"
+  "updatedAt": "2018-05-08T05:36:47.111Z"
 }
