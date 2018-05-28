@@ -44,7 +44,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 6644,
+          "SourceUnit": 6930,
           "absolutePath": "/Users/hanting/workspace/ethereum/truffle/huibaoSC/contracts/common/KnotToken.sol",
           "file": "./common/KnotToken.sol",
           "scope": 18,
@@ -91,7 +91,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "KnotToken",
-                  "referencedDeclaration": 6643,
+                  "referencedDeclaration": 6929,
                   "type": "contract KnotToken"
                 },
                 "id": 3,
@@ -218,7 +218,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 6643,
+                                  "referencedDeclaration": 6929,
                                   "type": "type(contract KnotToken)",
                                   "value": "KnotToken"
                                 },
@@ -281,5 +281,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-05-10T08:34:26.737Z"
+  "updatedAt": "2018-05-23T01:13:56.313Z"
 }
